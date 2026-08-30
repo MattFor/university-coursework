@@ -1,0 +1,1145 @@
+=== Strona 1 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:02
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 1024
+Od uruchomienia programu do wypisania strony upłynęło 0.051 sekund
+===============
+C [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] imperatywny, proceduralny język programowania ogólnego przeznaczenia[3], stworzony na początku lat 70. XX wieku przez Dennisa Ritchiego, ówczesnego pracownika Bell Labs. W języku C powstały narzędzia systemowe dla Uniksa, a potem również kod systemu Unix. Język C został ustandaryzowany w 1989 roku przez ANSI. Od tego czasu jego rozwojem zajmuje się grupa robocza w ramach ISO.
+
+Język C powstawał jako rozwinięcie języka B, wzbogacając się stopniowo o kolejne funkcje. Okresy najszybszego rozwoju języka C to lata 1972[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]1973 oraz 1977[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]1979. Z kolei lata 1980. to czas zdobywania przez niego popularności, czego efektem była dostępność kompilatorów dla praktycznie wszystkich używanych wtedy architektur komputerów i systemów operacyjnych.
+
+C jest jednym z popularniejszych języków programowania. Służy zarówno do pisania elementów systemów operacyjnych, jak i aplikacji użytkowych. Mimo to spotyka się z krytyką z powodu pewnych decyzji projektowych, takich jak priorytety operatorów lub nadmiernie lakoniczna skła
+
+=== Strona 2 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:02
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 2048
+Od uruchomienia programu do wypisania strony upłynęło 0.105 sekund
+===============
+dnia.
+Historia
+
+Początki C są ściśle związane z rozwojem systemu Unix, napisanego pierwotnie przez Dennisa Ritchiego i Kena Thompsona w asemblerze na komputer PDP-7. Późniejsza wersja systemu, przeznaczona na maszynę PDP-11, również powstała w asemblerze[4].
+
+Thompson czuł potrzebę wykorzystania języka wyższego poziomu do napisania narzędzi systemowych dla Uniksa. Początkowo próbował przygotować kompilator Fortranu, lecz dość szybko porzucił ten pomysł. W zamian stworzył własną, okrojoną wersję BCPL, którą nazwał B. W języku tym powstało niewiele narzędzi, ponieważ wynikowe programy były powolne oraz nie mogły korzystać z adresowania poszczególnych bajtów pamięci (funkcji dostępnej np. w PDP-11)[4].
+Wczesny rozwój
+
+Dennis Ritchie rozpoczął w 1972 roku rozwijanie języka B. Jedną z pierwszych zmian było dodanie typów danych dla zmiennych. Początkowo dostępne były dwa: znakowy (char) i całkowitoliczbowy (int). Wprowadzono również sposób deklarowania zmiennych typu wskaźnikowego oraz odwołań do funkcji. Tak znacz
+
+=== Strona 3 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:02
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 3072
+Od uruchomienia programu do wypisania strony upłynęło 0.167 sekund
+===============
+ące zmiany spowodowały, że Ritchie nadał językowi nową nazwę: C[4].
+
+Zgodnie z sugestią Alana Snydera, na początkowym etapie rozwoju języka Ritchie rozdzielił operatory koniunkcji i alternatywy na bitowe (składające się z pojedynczego symbolu) oraz logiczne (złożone z dwóch znaków). W języku B oba warianty oznaczano w taki sam sposób, a odpowiednie działanie było wybierane przez interpreter, w zależności od kontekstu[4].
+
+Kompilator C, wraz z kilkoma programami napisanymi w tym języku, został dołączony do drugiej wersji systemu Unix[5]. Latem 1973 jądro tego systemu zostało przepisane w języku C[4].
+
+Do tego czasu wprowadzono również do składni języka obsługę struktur. Mniej więcej w tym samym czasie powstała pierwsza wersja preprocesora. Umożliwiała ona dołączanie plików zewnętrznych (dyrektywa #include) oraz wykonywanie prostych podstawień (definiując makra bez parametrów z użyciem #define). Funkcjonalności takie jak kompilacja warunkowa czy parametryzowane makra zostały wprowadzone niedługo później [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] prz
+
+=== Strona 4 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:02
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 4096
+Od uruchomienia programu do wypisania strony upłynęło 0.227 sekund
+===============
+ez Mike[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]a Leska[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][w innych językach] oraz Johna Reisera. Na tym etapie rozwoju języka preprocesor stanowił opcjonalny dodatek, który nie musiał być uruchamiany w trakcie kompilacji[4].
+
+Około 1977 roku Dennis Ritchie, Ken Thompson i Stephen Johnson skupili się na przenośności oprogramowania napisanego w C[4]. W tym celu przyjrzeli się często wykorzystywanym konstrukcjom i zachowaniom, które były zależne od architektury komputera. Ponadto Johnson napisał kompilator pcc[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][w innych językach], w którym oddzielono część związaną z architekturą od części uniwersalnej, co ułatwiło wspieranie nowych platform sprzętowych oraz utrzymanie tych już wspieranych[6][4].
+K&R C
+
+W 1978 opublikowane zostało pierwsze wydanie książki The C Programming Language (wyd. polskie Język C, 1987[7]), autorstwa Briana Kernighana i Dennisa Ritchiego. Stanowiła ona pierwszą, nieformalną, specyfikację języka C[4]. Wersja ta bywa nazywana C78, gdzie nazwa pochodzi od roku wydania. Inne skrócone określenie, K&R C, pochodzi od nazwisk auto
+
+=== Strona 5 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:02
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 5120
+Od uruchomienia programu do wypisania strony upłynęło 0.285 sekund
+===============
+rów książki[8].
+
+Jeszcze przed publikacją książki do języka C włączono kwalifikatory short i long, pozwalające określić wielkość zmiennej typu całkowitoliczbowego, a także specyfikator unsigned, oznaczający liczby nieujemne[9].
+
+W specyfikacji C78 złożone operatory przypisania uzyskały jednoznaczną składnię. Do roku 1976 instrukcja [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]zmniejsz wartość zmiennej i o 10[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] mogłaby zostać napisana jako: i =- 10, co jest bardzo podobne do polecenia zapisania w zmiennej i wartości -10. Nowe symbole cechowała zamieniona kolejność operatora i znaku równości, np. -= zamiast =-. Dwuznaczne oznaczenia wywodziły się jeszcze z języka B i sposobu przetwarzania kodu przez jego analizator składni[4].
+
+W książce Kernighana i Ritchiego znalazł się również opis biblioteki wejścia/wyjścia. Podwaliny pod nią położył w 1972 roku Mike Lesk, pisząc [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]przenośną bibliotekę wejścia/wyjścia[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]. W następnych latach, wraz z pracami nad przenośnością systemu Unix, została ona rozwinięta i usprawniona. Funkcje biblioteczne nie zostały prze
+
+=== Strona 6 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:02
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 6144
+Od uruchomienia programu do wypisania strony upłynęło 0.353 sekund
+===============
+z autorów książki uznane za część języka, lecz dodatek do niego[4][10].
+
+Autorzy publikacji wspomnieli również o planowanym zniesieniu większości ograniczeń dotyczących struktur[11]. Do 1980 roku możliwe stało się przekazywanie ich jako parametry funkcji oraz bezpośrednie przypisywanie. Jedynie brak notacji dla literału powodował, że nie były typem pierwszoklasowym. W okresie po wydaniu książki do języka trafiło również wsparcie dla typów wyliczeniowych oraz funkcji niezwracających żadnej wartości, choć o tych kwestiach nie można znaleźć informacji w I wydaniu publikacji Kernighana i Ritchiego[4].
+
+Język taki, jak opisany przez Kernighana i Ritchiego w 1978 roku nie przewidywał żadnej możliwości określenia typów przyjmowanych przez parametry funkcji[4]. Powstały odrębne narzędzia, takie jak lint, które przeprowadzały analizę kodu bardziej rygorystyczną niż kompilator, a następnie zgłaszały problemy ze spójnością i przestrzeganiem dobrych praktyk[6].
+
+Książka Język C nie stanowiła ścisłego standardu. Miejscami
+
+=== Strona 7 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:02
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 7168
+Od uruchomienia programu do wypisania strony upłynęło 0.407 sekund
+===============
+ pozostawiała miejsce do interpretacji szczegółów języka. To, w połączeniu z dalszym rozwojem i popularyzacją C na różnych platformach, spowodowało potrzebę standaryzacji[4].
+
+W latach 80. XX wieku Bjarne Stroustrup stworzył język C++, który stanowił rozszerzenie C, dodające przede wszystkim wsparcie dla programowania obiektowego. Dodatków tych nie wcielono do C, a C++ został niezależnie ustandaryzowany przez ANSI i ISO[12].
+ANSI C i ISO C
+
+W 1983 roku, ANSI sformowała komitet X3J11, którego celem było [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]sformułowanie jasnego, spójnego i jednoznacznego standardu C, który skodyfikuje powszechnie istniejący język w sposób promujący zgodność programów z różnymi środowiskami uruchomieniowymi[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]. Odpowiedni dokument przyjęto w 1989 roku jako standard ANSI X3.159-1989 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]Język programowania C[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][4]. Opisana w nim wersja języka jest zwykle określana jako ANSI C lub C89 (od daty publikacji)[8].
+
+Rok później, w 1990 standard ANSI C został przyjęty (ze zmianami redakcyjnymi) przez Międzynarodową Organizację Normalizac
+
+=== Strona 8 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:02
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 8192
+Od uruchomienia programu do wypisania strony upłynęło 0.473 sekund
+===============
+yjną jako ISO/IEC 9899:1990[4][8]. Ta wersja bywa również nazywana C90 lub ISO C, choć opisuje ten sam język, co dokument ANSI[8].
+
+Oprócz dodatków autorstwa Ritchiego, zaimplementowanych po publikacji książki Język C, komitet standaryzacyjny ANSI wprowadził do języka np. prototypy funkcji czy wskaźniki na nieznany typ (void*). W C89 pojawiła się także możliwość deklarowania typów parametrów funkcji w nagłówku, ale starsza składnia pozostała dopuszczalna dla zgodności z istniejącym kodem. Standard wzbogacił również preprocesor o dodatkowe instrukcje, takie jak #elif oraz wsparcie dla łączenia napisów (operator ##)[13]. Wzorując się na języku C++ zaadaptowano również składnię i znaczenie kwalifikatorów typu const i volatile[14].
+
+Podczas prac nad językiem Kernighan i Ritchie nie skupiali się na ustandaryzowaniu biblioteki standardowej. Odpowiednie funkcje dostarczał system Unix, niezależnie od stosowanego kompilatora. Implementacje C na innych platformach były wyposażone w biblioteki, które starały się naślado
+
+=== Strona 9 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:02
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 9216
+Od uruchomienia programu do wypisania strony upłynęło 0.531 sekund
+===============
+wać to, co było dostępne na Uniksie, jednak nie istniały wytyczne określające zestaw procedur, jakie muszą być udostępnione programistom. Komitet ANSI przygotował opis biblioteki standardowej języka C, wymagający dostarczenia programiście odpowiednich funkcji o ściśle określonym działaniu i przeznaczeniu[13].
+
+W 1995 roku została opublikowana poprawka do standardu, wprowadzająca obsługę wielobajtowych kodowań znaków (ang. wide characters, typ wchar_t), wraz z zestawem funkcji do operacji na składających się z nich napisach[15]. Inne zmiany obejmują dodanie pliku nagłówkowego iso646.h, definiującego makra, których można użyć do zastąpienia niektórych operatorów słowami, jak and zamiast && czy not_eq zamiast !=. Oprócz istniejących już trójznaków (będących innym sposobem zapisania pewnych symboli), wprowadzono 6 dwuznaków o tym samym zastosowaniu: <:, :>, <%, %>, %: i %:%:[16][17]. W poprawce ustanowiono również wymóg, by implementacje ustawiały makro __STDC_VERSION__ na wartość 199409, co ma wskazywać na zgodn
+
+=== Strona 10 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:02
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 10240
+Od uruchomienia programu do wypisania strony upłynęło 0.583 sekund
+===============
+ość z nowszą wersją standardu[16].
+C99
+
+Druga wersja standardu języka C została opublikowana przez ISO w 1999 roku. Zaczerpnęła z języka C++ funkcje inline i komentarze jednoliniowe (rozpoczynające się sekwencją //). Zdefiniowano wtedy również kolejne typy danych: long long int (minimum 64-bitowa liczba całkowita) oraz typ logiczny _Bool, który może przyjmować jedynie wartości 0 oraz 1[18][19] (wraz z makrami bool, true i false)[20]. W tej wersji standardu dodano także kolejny kwalifikator typu restrict[19].
+
+Od standardu C99 zdefiniowany jest sposób obsługi liczb zespolonych w języku. Służą do tego typy z określeniami _Imaginary oraz _Complex[18], przechowujące [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] odpowiednio [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] wartości urojone oraz zespolone. Kwalifikatorów tych można używać jedynie z typami zmiennoprzecinkowymi[20].
+
+W 1999 roku do języka C wprowadzono także obsługę tablic o długości ustalanej w czasie działania programu[19]. Implementacje wspierające wersję C99 powinny ustawić makro __STDC_VERSION__ na 199901[20].
+C11
+
+Kolejna edycja s
+
+=== Strona 11 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:02
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 11264
+Od uruchomienia programu do wypisania strony upłynęło 0.644 sekund
+===============
+tandardu została przyjęta w grudniu 2011. Podczas prac nad nią, komitety odpowiedzialne za języki C i C++ współpracowały ze sobą, by zachować wzajemną zgodność obu na tyle, na ile to możliwe. W tej wersji standardu zadecydowano, że tablice o zmiennej długości oraz typy zespolone staną się funkcjonalnością opcjonalną (C99 wymagał, by kompilatory je wspierały). Rozbudowano również bibliotekę standardową o procedury sprawdzające zakres i granice obszaru pamięci podczas operowania na napisach. Z powodu licznych podatności usunięto funkcję gets(), zastępując ją bezpieczniejszą gets_s()[21].
+
+Publikując tę wersję standardu, komitet ustandaryzował wsparcie dla wielowątkowości, m.in. definiując sposoby zarządzania i synchronizowania wątków oraz wprowadzając typy atomowe (w tym kwalifikator typu _Atomic). Umożliwiono również oznaczenie funkcji bez powrotu słowem kluczowym _Noreturn, co pozwala kompilatorom na pewne optymalizacje generowanego kodu[21].
+
+W 2011 roku do języka C wprowadzono także mechanizm definiowania m
+
+=== Strona 12 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:02
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 12288
+Od uruchomienia programu do wypisania strony upłynęło 0.701 sekund
+===============
+akr generycznych ze względu na typ parametrów oraz wsparcie dla literałów napisowych w standardach Unicode i UTF-8[21].
+
+W tej wersji __STDC_VERSION__ przyjmuje wartość 201112[22].
+C17 / C18
+
+Czwarta wersja standardu nie przyniosła żadnych znaczących zmian w języku w stosunku do C11[23]. Dokument przyjęty przez ISO w czerwcu 2018[1] przyniósł poprawki i uściślenia tekstu, dlatego zmiany w zachowaniu kompilatorów po jego implementacji wynikają z interpretacji niejednoznacznych zapisów[23]. Jedyną zmianą normatywną było nadanie wartości 201710 makro __STDC_VERSION__[22].
+
+Iteracja ta bywa nazywana C17[23], jak i C18[24].
+C23
+
+Piąta wersja standardu określa C23[25][26].
+Składnia
+
+Formalna gramatyka języka C jest opisana w standardzie ISO C[27]. Podział kodu na linie oraz białe znaki są ignorowane. Ich stosowanie jest obowiązkowe jedynie, kiedy służą rozdzieleniu poszczególnych jednostek leksykalnych[28].
+
+Program w języku C zapisywany jest w plikach źródłowych, które nie muszą być kompilowane w tym samym czasie.
+
+=== Strona 13 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:02
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 13312
+Od uruchomienia programu do wypisania strony upłynęło 0.759 sekund
+===============
+ Plik źródłowy razem z plikami dołączonymi dyrektywą #include tworzy jednostkę tłumaczenia, która po przetłumaczeniu na kod maszynowy może być konsolidowana z innymi w celu stworzenia wykonywalnego programu[29].
+Identyfikatory
+
+Identyfikator stanowi nazwę obiektu, funkcji, etykiety itp. Może on oznaczać różne byty w różnych momentach wykonywania programu[30]. Istotna jest jedynie określona liczba znaków w nazwie. W przypadku, gdy dwa identyfikatory różnią się jedynie znakami na nieistotnych pozycjach, zachowanie jest nieokreślone. Minimalna znacząca długość jest zależna od implementacji i może się różnić w zależności od sposobu linkowania określanego przezeń bytu[31], choć standard wymaga, by przynajmniej 63 pierwsze znaki identyfikatorów wewnętrznych i 31 początkowych znaków identyfikatorów zewnętrznych było znaczących[32].
+
+Identyfikatory mogą składać się jedynie z liter, cyfr i znaku podkreślenia, choć cyfra nie może występować na pierwszym miejscu[31]. Aby zastosować w nazwie znaki spoza tego zbioru, koni
+
+=== Strona 14 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:02
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 14336
+Od uruchomienia programu do wypisania strony upłynęło 0.814 sekund
+===============
+eczne jest użycie sekwencji ucieczki[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][w innych językach] \uxxxx lub \Uxxxxxxxx (gdzie x to cyfra szesnastkowa)[33]. Na potrzeby kompilatora i powiązanej z nim biblioteki zarezerwowane są identyfikatory zaczynające się dwoma znakami podkreślenia lub podkreśleniem z następującą po nim wielką literą[34].
+
+W zależności od tego, do czego odwołuje się identyfikator, należy on do jednej z przestrzeni nazw[35]:
+
+    etykiety;
+    nazwy struktur, unii i typów wyliczeniowych;
+    pola struktur i unii (niezależne przestrzenie dla każdej struktury i unii);
+    pozostałe.
+
+Ponadto każdy identyfikator ma swój zakres widoczności, zależny od miejsca deklaracji[30].
+
+Z identyfikatorem może być skojarzony jeden z trzech sposobów łączności: zewnętrzna, wewnętrzna lub brak. Łączność decyduje o tym, czy dwa identyczne identyfikatory w różnych miejscach programu odnoszą się do tego samego bytu[35]:
+
+    identyfikatory o łączności zewnętrznej odnoszą się do tego samego obiektu lub funkcji w obrębie całego programu,
+    identyfika
+
+=== Strona 15 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 15360
+Od uruchomienia programu do wypisania strony upłynęło 0.871 sekund
+===============
+tory o łączności wewnętrznej oznaczają ten sam byt w ramach jednej jednostki tłumaczenia,
+    identyfikatory bez łączności za każdym razem odnoszą się do innego obiektu.
+
+Wyrażenia
+
+Ciąg operatorów i operandów stanowi w języku C wyrażenie. Oznacza ono obliczenie wartości lub odwołanie do obiektu. W trakcie jego wywoływania mogą także występować skutki uboczne[36] (na przykład inkrementacja zmiennej[37]). Kolejność obliczania wartości i zachodzenia skutków ubocznych jest nieokreślona, lecz zgodna z pierwszeństwem operatorów. Standard języka C gwarantuje, że zdarzą się one przed następnym punktem sekwencyjnym[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][w innych językach][38].
+
+Jeżeli tego samego obiektu dotyczy więcej niż jeden skutek uboczny i nie są one rozdzielone punktem sekwencyjnym, wtedy zachowanie jest nieokreślone[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][w innych językach][38][36]. Takie punkty wprowadzane są[39]:
+
+    w trakcie wywoływania funkcji: przed rozpoczęciem obliczania argumentów funkcji oraz przed skokiem do funkcji;
+    między obliczeniem wartości operandów &&, ||, ,;
+
+=== Strona 16 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 16384
+Od uruchomienia programu do wypisania strony upłynęło 0.924 sekund
+===============
+
+    między obliczeniem wartości pierwszego operandu ?: a drugiego lub trzeciego;
+    między wywołaniem kolejnych pełnych wyrażeń;
+    w momencie powrotu z funkcji bibliotecznych oraz w niektórych przypadkach w trakcie ich działania.
+
+Operatory
+
+W języku C są zdefiniowane następujące operatory[40]:
+
+    arytmetyczne: +, -, *, /, %
+    bitowe: ~, &, ^, |
+    dostępu: ., ->
+    grupowania wyrażeń: ()
+    inkrementacji i dekrementacji: ++, --
+    logiczne: !, &&, ||
+    porównania: <, >, <=, >=, ==, !=
+    przesunięcia bitowego: <<, >>
+    przypisania: =
+    przypisania złożonego: *=, /=, %=, +=, -=, <<=, >>=, &=, ^=, |=
+    rozmiaru obiektu: sizeof
+    rzutowania: (typ)
+    sekwencyjny: ,
+    warunkowy: ?:
+    wskaźnikowe: *, &, []
+    wyrównania dla typu: _Alignof
+    wywołania funkcji: ()
+
+Obiekty
+
+Obiekt (zwany też zmienną[41]), według standardu języka C, to region pamięci środowiska wykonawczego, mogący reprezentować wartości[42]. Wyrażenie, które może odwoływać się do obiektu jest l-wartością. Jej typ okre
+
+=== Strona 17 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 17408
+Od uruchomienia programu do wypisania strony upłynęło 0.982 sekund
+===============
+śla, w jaki sposób interpretować zawartość obiektu[43].
+
+Przykładem l-wartości jest identyfikator obiektu. Może nią być również rezultat dereferencji wskaźnika[43].
+
+Deklaracja obiektu polega na podaniu typu danych oraz opcjonalnie klasy pamięci i sposobu linkowania, po których występuje przynajmniej jeden identyfikator tworzonego obiektu (lub obiektów)[44].
+Funkcje
+
+W języku C rozróżniane są[45]:
+
+    deklaracja funkcji [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] polega na podaniu zwracanego typu, nazwy funkcji oraz listy parametrów (być może pustej); kończy się średnikiem
+    definicja funkcji [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] składa się z deklaracji oraz listy instrukcji, objętej w nawiasy klamrowe ({...}).
+
+Definicje funkcji w języku C nie mogą być zagnieżdżane[46].
+
+Funkcje w języku C nie mogą być przeciążane[47], ale istnieje mechanizm definiowania funkcji o zmiennej liczbie argumentów[48].
+Instrukcje sterujące
+Wykorzystanie instrukcji if i switch do realizacji równoważnych fragmentów kodu.
+
+W języku C można wyróżnić trzy klasy instrukcji sterujących. Pierwszą z nich są p
+
+=== Strona 18 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 18432
+Od uruchomienia programu do wypisania strony upłynęło 1.040 sekund
+===============
+olecenia umożliwiające warunkowe wykonanie fragmentów kodu. Do tej grupy należą[49]:
+
+    if ... else [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] pozwala na wykonanie jednej z dwóch gałęzi kodu na podstawie wartości typu logicznego,
+    switch [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] wykonuje jeden z wielu bloków kodu na podstawie porównania wartości liczbowej z wyrażeniami w poszczególnych etykietach case.
+
+Schemat blokowy pętli for.
+
+Druga grupa instrukcji sterujących służy realizacji pętli. Każda z nich jest wykonywana tak długo, jak podany warunek jest prawdziwy. Składają się na nią[50]:
+
+    while [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] warunek jest sprawdzany przed każdą iteracją;
+    do ... while [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] warunek jest sprawdzany po każdej iteracji;
+    for [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] pozwala na określenie instrukcji, która wykona się przed pierwszą iteracją oraz instrukcji do wywołania po każdym przebiegu pętli.
+
+Ostatnią grupę stanowią instrukcje skoku. Należą do nich[51]:
+
+    goto [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] realizuje skok do etykiety o podanej nazwie, ale nie jest możliwe wyjście z aktualnie wykonywanej funkcji;
+    continue [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] przerywa wykonywanie bieżącej it
+
+=== Strona 19 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 19456
+Od uruchomienia programu do wypisania strony upłynęło 1.107 sekund
+===============
+eracji pętli i przechodzi do kolejnej;
+    break [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] przerywa wykonywanie pętli lub instrukcji switch;
+    return [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] przerywa wykonywanie bieżącej funkcji i opcjonalnie przekazuje wartość do miejsca wywołania.
+
+Dyrektywy preprocesora
+
+Dyrektywy preprocesora rozpoczynają się od znaku # i muszą znajdować się w osobnych liniach (dopuszczalne jest by przed symbolem kratki znajdowały się spacje)[52].
+
+Preprocesor w języku C pozwala na manipulację kodem źródłowym przed właściwą kompilacją. Wspiera mechanizmy kompilacji warunkowej (dyrektywa #if i jej warianty) oraz dołączania innych plików źródłowych (#include). Odpowiada również za rozwijanie makr (zdefiniowanych przy użyciu #define)[53][54].
+
+Dzięki dyrektywie #pragma możliwe jest przekazywanie instrukcji specyficznych dla kompilatora[55][a].
+Komentarze
+
+W języku C występują komentarze liniowe i blokowe. Ich zawartość przetwarzana jest przez kompilator wyłącznie w celu znalezienia końca komentarza (symbolizowanego odpowiednią sekwencją lub końcem linii). Do ich 
+
+=== Strona 20 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 20480
+Od uruchomienia programu do wypisania strony upłynęło 1.164 sekund
+===============
+wprowadzenia służą znaki /* (blokowy, kończy się */) oraz // (liniowy, trwa do końca linii). Sekwencje te tracą swoje znaczenie, jeśli znajdują się w literale tekstowym lub wewnątrz innego komentarza[56].
+
+W trakcie kompilacji, komentarze zastępowane są znakiem spacji[29].
+Typy danych
+
+Typ danych określa zbiór wartości, które może przyjąć dany obiekt, jak również dozwolone operacje na nim[57]. Język udostępnia zestaw typów podstawowych oraz mechanizmów konstruowania typów pochodnych[58].
+
+Szczególnym typem danych w C jest typ pusty void, który nie przechowuje żadnej wartości. W związku z tym można wykorzystywać go jedynie w sytuacjach, gdy wartość nie jest wymagana [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] np. jako lewy argument operatora , lub w charakterze instrukcji. Rzutowanie tego typu na jakikolwiek inny typ, zarówno jawne, jak i niejawne jest niedozwolone[59]. Słowem void oznacza się między innymi funkcje nie zwracające nic[60].
+Typy podstawowe
+
+W języku C istnieje kilka bazowych typów danych, które można dookreślać z użyciem odpowiednich 
+
+=== Strona 21 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 21504
+Od uruchomienia programu do wypisania strony upłynęło 1.221 sekund
+===============
+słów kluczowych w celu uzyskania odpowiedniego zakresu wartości. Służą do przechowywania liczb całkowitych (char i int) oraz zmiennoprzecinkowych (float i double)[61].
+
+Razem z typem int można stosować kwalifikatory short oraz long. Pozwalają one programiście wykorzystywać typy danych krótsze i dłuższe niż naturalne dla danej architektury. Ponadto nazwę każdego typu, służącego do przechowywania liczb całkowitych, można również poprzedzić słowem signed lub unsigned, aby określić, czy dany obiekt ma być w stanie przechowywać liczby ujemne[62]. Reprezentacja bitowa wartości, które można zapisać zarówno w wariancie signed, jak i unsigned danego typu jest w obu wariantach taka sama[63].
+
+Standard języka C nie ustala w sposób sztywny zakresów wartości, jakie muszą się zmieścić w obiektach poszczególnych typów. Podobnie nie są określone ich rozmiary w bitach lub bajtach[61]. Od implementacji języka wymaga się, by poszczególne typy danych pozwalały na przechowywanie przynajmniej liczb z ustalonego przedziału[32], a w
+
+=== Strona 22 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 22528
+Od uruchomienia programu do wypisania strony upłynęło 1.268 sekund
+===============
+ przypadku typu logicznego _Bool [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] by miał rozmiar wystarczający do zmieszczenia wartości 0 i 1[64].
+Minimalne zakresy wartości dla typów całkowitoliczbowych[65] Typ 	Minimalny zakres 	Minimalny rozmiar w bitach
+signed char 	[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 2 7 + 1 , 2 7 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 1 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] {\displaystyle \langle -2^{7}+1,\;2^{7}-1\rangle } 	8
+unsigned char 	[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 0 , 2 8 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 1 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] {\displaystyle \langle 0,\;2^{8}-1\rangle } 	8
+short int[b] 	[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 2 15 + 1 , 2 15 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 1 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] {\displaystyle \langle -2^{15}+1,\;2^{15}-1\rangle } 	16
+unsigned short int[b] 	[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 0 , 2 16 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 1 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] {\displaystyle \langle 0,\;2^{16}-1\rangle } 	16
+int 	[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 2 15 + 1 , 2 15 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 1 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] {\displaystyle \langle -2^{15}+1,\;2^{15}-1\rangle } 	16
+unsigned int[b] 	[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 0 , 2 16 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 1 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] {\displaystyle \langle 0,\;2^{16}-1\rangle } 	16
+long int[b] 	[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 2 31 + 1 , 2 31 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 1 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] {\displaystyle \langle -2^{31}+1,\;2^{31}-1\rangle } 	32
+unsigned long int[b] 	[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 0 , 2 32 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 1 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] {\displaystyle \langle 0,\;2^{32}-1\rangle } 	32
+long long int[b] 	[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 2 63 + 1 , 2 63 [[Nieznany znak!]][[Nieznany znak!]]
+
+=== Strona 23 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 23552
+Od uruchomienia programu do wypisania strony upłynęło 1.376 sekund
+===============
+[[Nieznany znak!]] 1 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] {\displaystyle \langle -2^{63}+1,\;2^{63}-1\rangle } 	64
+unsigned long long int[b] 	[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 0 , 2 64 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 1 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] {\displaystyle \langle 0,\;2^{64}-1\rangle } 	64
+
+W powyższej tabeli zebrano minimalne wymagania stawiane dostępnym w C typom całkowitoliczbowym. Dodatkowym ograniczeniem, stawianym przez standard jest to, aby kolejne typy miały zakres niemniejszy od poprzednich. Na przykład obiekt typu short nie może być dłuższy niż int, który z kolei musi być niedłuższy od long[61].
+
+Użycie kwalifikatora long jest dopuszczalne również w połączeniu z typem double, choć standard C nie gwarantuje, że uzyskany w ten sposób typ będzie miał większą pojemność niż wyjściowy. Podobnie jak w przypadku liczb całkowitych, dostępne typy zmiennoprzecinkowe również nie mają sztywno określonego zakresu wartości oraz minimalnej dokładności[67].
+
+W czasie, gdy ukazało się pierwsze wydanie książki Język C Kernighana i Ritchiego, dopuszczalna była również konstrukcja long float, równoważna typowi double, jednak została ona zniesio
+
+=== Strona 24 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 24576
+Od uruchomienia programu do wypisania strony upłynęło 1.433 sekund
+===============
+na przez standard ANSI C[60].
+Minimalne wymagania standardu języka C wobec typów zmiennoprzecinkowych[68] Cecha 	float 	double 	long double
+Liczba dziesiętnych cyfr znaczących 	6 	10 	10
+Największa liczba dodatnia 	10 37 {\displaystyle 10^{37}} 	10 37 {\displaystyle 10^{37}} 	10 37 {\displaystyle 10^{37}}
+Najmniejsza dodatnia liczba znormalizowana 	10 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 37 {\displaystyle 10^{-37}} 	10 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 37 {\displaystyle 10^{-37}} 	10 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 37 {\displaystyle 10^{-37}}
+Epsilon maszynowy 	10 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 5 {\displaystyle 10^{-5}} 	10 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 9 {\displaystyle 10^{-9}} 	10 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] 9 {\displaystyle 10^{-9}}
+
+Do typów podstawowych należy również wyliczenie. Składa się ono z listy stałych symbolicznych, każda o wartości będącej liczbą całkowitą. Typy wyliczeniowe funkcjonalnie są równoważne całkowitoliczbowym[69][60].
+Typy pochodne
+
+Z niezerowej liczby obiektów tego samego typu można stworzyć tablicę[70]. Jej elementy są ułożone w pamięci komputera po kolei i bez żadnych przerw[71], a dostęp do nich można uzyskać za pomocą składni tablica[indeks],
+
+=== Strona 25 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 25600
+Od uruchomienia programu do wypisania strony upłynęło 1.488 sekund
+===============
+ gdzie indeksy rozpoczynają się od zera[72][c]. Do raz utworzonej zmiennej typu tablicowego nie jest możliwe przypisanie innej tablicy[74]. Kiedy nazwa tablicy zostanie użyta w wyrażeniu, dokonuje się jej niejawna konwersja na wskaźnik do zerowego elementu tablicy. Wskaźnik ten nie może być użyty w charakterze l-wartości[43].
+
+Do przechowywania adresu obiektu określonego typu służą wskaźniki[75]. Dozwolone jest wykonywanie na nich niektórych operacji arytmetycznych. Dowolny wskaźnik można przyrównać do zera (oznaczającego literał pusty, zapisywany też jako NULL)[76]. Porównywanie oraz odejmowanie dwóch wskaźników jest zdefiniowane wyłącznie wtedy, kiedy dotyczą one tej samej tablicy lub [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] wyłącznie w przypadku porównywania [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] tego samego obiektu złożonego[77]. Do wartości wskaźnika można również dodać lub odjąć dowolną liczbę całkowitą. Zabronione jest wykonywanie innych działań, takich jak mnożenie czy dzielenie[76]. W działaniach arytmetycznych, w których biorą udział liczby całkowite oraz wskaźniki, lic
+
+=== Strona 26 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 26624
+Od uruchomienia programu do wypisania strony upłynęło 1.541 sekund
+===============
+zba jest traktowana jako liczba elementów tablicy odpowiedniego typu, a nie liczba bajtów[d][78].
+
+Jedna lub kilka zmiennych może tworzyć strukturę. W przeciwieństwie do tablic, takie składowe mogą być różnych typów, a poszczególne pola rozróżnia się z użyciem ich identyfikatorów[79]. Każda struktura stanowi odrębną przestrzeń nazw, toteż pole o tej samej nazwie może występować w kilku strukturach[80][35]. Zagnieżdżanie struktur jest dozwolone [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] składowe mogą również być strukturami. Standard ISO C zabrania natomiast rekursywnego zagnieżdżania struktury samej w sobie. Mimo to struktura może zawierać wskaźnik na inną strukturę tego samego typu[81]. Zarówno przypisywanie do zmiennej typu strukturalnego nowej wartości, jak i przekazywanie jej jako argument oraz zwracanie z funkcji są dopuszczalnymi operacjami[82].
+
+Układ składowych w pamięci jest zależny od implementacji, z pewnymi wyjątkami: pierwsze pole musi się zaczynać od razu na początku struktury (tak by wskaźnik na strukturę był równy co do wartości ws
+
+=== Strona 27 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 27648
+Od uruchomienia programu do wypisania strony upłynęło 1.592 sekund
+===============
+kaźnikowi na jej pierwsze pole), a ponadto pola muszą następować w pamięci w tej samej kolejności, co w deklaracji. Dopuszcza się jednak istnienie niewykorzystanych i nienazwanych przestrzeni w środku oraz na końcu struktury[83].
+
+Struktury mogą zawierać również pola bitowe, które pozwalają na określenie rozmiaru obiektu z dokładnością do bitów[84]. Takie pola w trakcie kompilacji są umieszczane w odpowiednio dużej, adresowalnej jednostce pamięci. Jeżeli ma ona wystarczający rozmiar, by pomieścić sąsiednie pola, zostaną one w niej razem upakowane. Standard ISO C nie określa kolejności, w której przylegające do siebie pola bitowe są przechowywane w pamięci[83]. Pobieranie adresu pola bitowego jest niedozwolone[85].
+
+Przykładowa deklaracja struktury opisującej węzeł pewnego drzewa[86]:
+
+struct tnode {
+    char *word;
+    int count;
+    struct tnode *left;
+    struct tnode *right;
+}
+
+Typem podobnym do struktur są unie. Pozwalają one przechowywać wartości różnych typów pod tym samym adresem, z poszanowaniem ogran
+
+=== Strona 28 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 28672
+Od uruchomienia programu do wypisania strony upłynęło 1.644 sekund
+===============
+iczeń dotyczących ich ułożenia w pamięci. Unia ma przynajmniej taki rozmiar, jak największa spośród jej składowych. Wszystkie operacje, które są dopuszczalne dla struktur, można wykonywać również na uniach[87].
+
+Standard języka C definiuje również typy atomowe, choć stanowią one opcjonalną funkcjonalność, która nie musi być obsługiwana przez implementacje[88]. Biblioteka standardowa dostarcza funkcje pozwalające m.in. na zmianę wartości zmiennych takich typów w sposób atomowy, tj. z gwarancją, że operacja nie zostanie przerwana przez inne działanie na tej samej zmiennej[89].
+
+W języku C dostępne są także typy danych opisujące funkcje. Zawierają one informacje o typie parametrów oraz wartości zwracanej[70]. Zmienna typu funkcyjnego, jeśli nie jest argumentem operatora pozyskania adresu &, niejawnie przekształca się we wskaźnik do funkcji[43]. Wywołania, dokonywane za pośrednictwem wskaźników nie są przez standard rozróżniane od tych zawierających wprost nazwę funkcji[90].
+Aliasy typów
+
+W języku C dostępny jest
+
+=== Strona 29 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 29696
+Od uruchomienia programu do wypisania strony upłynęło 1.693 sekund
+===============
+ mechanizm pozwalający na zdefiniowanie synonimów dla istniejących typów danych. Aliasowanie nie tworzy nowego typu, zatem obiekty utworzone z użyciem zarówno pierwotnej, jak i nowej nazwy mają identyczne właściwości[91].
+
+Mechanizm ten wykorzystuje się między innymi w celu zapewnienia przenośności oprogramowania podczas wykorzystania typów zależnych od docelowej architektury. Przykładem takiego zastosowania są size_t i ptrdiff_t, pochodzące z biblioteki standardowej języka C[92]. Przechowują one liczby całkowite, lecz ich dokładny typ zależy od implementacji[93].
+
+Inny powód, dla którego typom nadawane są nowe nazwy, to ułatwienie zrozumienia programu poprzez nadanie opisowych nazw bardziej złożonym konstrukcjom[94]. Poniższe trzy deklaracje funkcji są sobie równoważne[95]:
+
+// fv jest aliasem dla funkcji przyjmującej parametr int i nie zwracającej żadnej wartości
+typedef void fv(int);
+// pfv to alias dla wskaźnika na funkcję taką jak powyżej
+typedef void (*pfv)(int);
+
+// Równoważne deklaracje:
+void (*signal
+
+=== Strona 30 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 30720
+Od uruchomienia programu do wypisania strony upłynęło 1.747 sekund
+===============
+(int, void (*)(int)))(int);
+fv *signal(int, fv *);
+pfv signal(int, pfv);
+
+Kwalifikatory typów
+
+Kwalifikatory typów nadają specyficzne znaczenia wyrażeniom, które są l-wartością[96]. Można je ze sobą dowolnie łączyć[96].
+
+const
+    Oznacza wartość, która nie może być zmieniana[97]. Próba modyfikacji tak zdefiniowanego obiektu przez l-wartość usuwającą to ograniczenie jest zachowaniem niezdefiniowanym[98]. Obiekty zdefiniowane statycznie jako const mogą zostać umieszczone w pamięci z dostępem tylko do odczytu[99].
+volatile
+    Oznacza, że wartość wyrażenia jest nieprzewidywalna lub może mieć nieznane efekty uboczne[100]. Jest to wskazówka dla kompilatora, aby nie dokonywał w obrębie tego wyrażenia żadnych optymalizacji[101]. W środowisku wieloprocesorowym może to oznaczać, że zmienna jest dostępna z wielu wątków równocześnie[99]. Statyczne obiekty volatile są odpowiednim wyborem przy modelowaniu układów wejścia/wyjścia mapowanego w przestrzeni adresowej procesora[99]. Próba modyfikacji tak zdefiniowanego obiekt
+
+=== Strona 31 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:03
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 31744
+Od uruchomienia programu do wypisania strony upłynęło 1.800 sekund
+===============
+u przez l-wartość usuwającą to ograniczenie jest zachowaniem niezdefiniowanym[102].
+restrict
+    Kwalifikator typu wskaźnikowego będący wskazówką optymalizacyjną dla kompilatora, że dostęp do wszelkich danych obiektu dokonywany jest jedynie przez podany wskaźnik[100].
+_Atomic
+    Oznacza wartość, do której możliwy ma być dostęp za pomocą niepodzielnej instrukcji. Szczegółowy zestaw dostępnych operacji i typów danych jest zdefiniowany w dedykowanym pliku nagłówkowym <stdatomic.h>[103].
+identyfikator przestrzeni adresowej
+    Systemy wbudowane używają procesorów, które mają wiele różnych i rozłącznych przestrzeni adresowych. Możliwe jest określanie, że obiekt ma być umieszczony w określonej przestrzeni za pomocą dedykowanych kwalifikatorów[104]. Przykładowo dla procesora Intel 8051 dostępne są kwalifikatory pamięci code, data, idata, bdata, xdata, far i pdata[105]. Natomiast kompilator C dla z/OS wspiera __callback, __far, __fdptr, __ptr32 i __ptr64[106]. Rozszerzenia dotyczące wsparcia różnych przestrzeni adre
+
+=== Strona 32 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 32768
+Od uruchomienia programu do wypisania strony upłynęło 1.855 sekund
+===============
+sowych implementuje również kompilator GNU C na przykład __flash, __memx, __far, __ea, __seg_fs lub __seg_gs. Ich dostępność zależy od docelowego procesora, na który jest kompilowany kod[107].
+
+Zarządzanie pamięcią
+
+Standard języka C gwarantuje, że na czas życia obiektu zostanie mu przydzielona pamięć. Ponadto przez cały ten czas dany obiekt będzie dostępny pod stałym adresem i będzie przechowywał ostatnio zapisaną wartość. Momenty utworzenia i zniszczenia obiektu są zależne od przypisanej mu klasy pamięci[108]. Dostęp do pamięci nie jest kontrolowany przez język[109], ale próby odczytu lub zapisu pod nieprawidłowymi adresami mogą skończyć się naruszeniami ochrony pamięci[110].
+
+Każdy obiekt (poza polami bitowymi) składa się z ciągłej sekwencji bajtów, których kolejność i sposób kodowania wartości może zależeć od implementacji[88].
+
+Po upłynięciu czasu życia zmiennej, wszelkie odwołania do niej prowadzą do niezdefiniowanego zachowania. Podobnie wartość wskazywana przez wskaźnik staje się nieokreślona, kiedy w
+
+=== Strona 33 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 33792
+Od uruchomienia programu do wypisania strony upłynęło 1.904 sekund
+===============
+skazywany obiekt kończy życie[108].
+Klasy pamięci
+
+Deklarując obiekt, można wskazać jego klasę pamięci, która określa między innymi jego czas życia i zasięg widoczności. Zmienne lokalne, o ile nie użyto żadnego specyfikatora klasy pamięci, są deklarowane jako zmienne automatyczne[41]. Wartości niezainicjalizowanych zmiennych są niezdefiniowane i mogą mieć wartość zależną od kompilatora lub od tego, co akurat było w pamięci[111]. Są one dostępne przez cały czas wykonywania bloku, gdzie zostały zadeklarowane[e]. W przypadku rekurencyjnego wkroczenia do tego samego bloku, za każdym razem tworzona jest osobna instancja obiektu. Tę klasę pamięci można również określić jawnie słowem kluczowym auto[108].
+
+Podobne do zmiennych automatycznych są zmienne rejestrowe. Zadeklarowanie obiektu ze słowem register sugeruje kompilatorowi, by umieścił go w pamięci o szybkim dostępie (np. rejestrze procesora[112]). Ostateczny wybór rodzaju pamięci, w której znajdzie się zmienna, należy jednak do kompilatora. Niezależnie od tego,
+
+=== Strona 34 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 34816
+Od uruchomienia programu do wypisania strony upłynęło 1.955 sekund
+===============
+ czy obiekt zlokalizowany będzie w pamięci adresowalnej, zabronione jest pobieranie adresu zmiennej rejestrowej[113].
+
+Innym rodzajem zmiennych są zmienne statyczne (deklarowane słowem static). Pamięć dla nich inicjalizowana jest w momencie uruchomienia programu i od tego momentu wszystkie odwołania dotyczą tego samego regionu pamięci[108]. W przypadku, gdy zmienną lokalną zadeklarowano jako statyczną, będzie ona przechowywała tę samą wartość pomiędzy różnymi wywołaniami funkcji. Z kolei statyczne zmienne zewnętrzne charakteryzują się linkowaniem wewnętrznym, co oznacza, że nie są widoczne na zewnątrz jednostki tłumaczenia, w której je zadeklarowano[112].
+
+Obiektowi można również nadać klasę extern, która jawnie informuje, że cechuje się on linkowaniem zewnętrznym. Jest to domyślna własność zmiennych deklarowanych na zewnątrz funkcji[114]. Zmienne statyczne i zewnętrzne są inicjalizowane zerem, jeśli nie podano żadnej wartości początkowej[115].
+
+Istnieje również klasa pamięci _Thread_local, której czas życia 
+
+=== Strona 35 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 35840
+Od uruchomienia programu do wypisania strony upłynęło 2.008 sekund
+===============
+jest powiązany z wątkiem. Obiekty zadeklarowane w ten sposób są tworzone w momencie rozpoczęcia wątku. Dostęp pośredni do zmiennych tego rodzaju należących do innych wątków wywołuje zachowanie zależne od implementacji[108].
+
+Formalnie, specyfikatorem klasy pamięci jest także typedef. Zalicza się go do tej grupy dla wygody, choć nie służy do deklarowania pamięci[116].
+Alokacja pamięci
+
+Biblioteka języka C udostępnia funkcje służące do alokacji pamięci o arbitralnie wybranym rozmiarze (malloc i odmiany). Zwracają one wskaźnik do pierwszego bajtu obszaru pamięci, który można następnie rzutować na dowolny inny typ wskaźnikowy. Zarezerwowany w ten sposób zakres, w zależności od wywołanej funkcji, może być zainicjalizowany samymi zerami, lecz nie musi. Czas życia obiektów w alokowanej jawnie pamięci trwa od jej przydzielenia aż do zwolnienia za pomocą funkcji free[117].
+
+Zastosowanie ręcznej alokacji pamięci może prowadzić do wystąpienia błędów w kodzie, wynikających np. z odwołań do wiszących wskaźników[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][w innyc
+
+=== Strona 36 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 36864
+Od uruchomienia programu do wypisania strony upłynęło 2.061 sekund
+===============
+h językach], ale także przepełnienia bufora i próby powtórnej dealokacji. Obecne w programie podatności mogą zależeć od wykorzystanego algorytmu rezerwacji pamięci[118].
+Przykład [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]Hello world[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]
+Kartka papieru do drukarki z odręcznie napisanym kodem w języku C. Poniżej podpis autora.
+Program [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]Hello world[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] napisany odręcznie przez Briana Kernighana
+
+Program wyświetlający na ekranie napis [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]Hello world[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] był pierwszym fragmentem kodu w języku C, umieszczonym w książce Język C[119]. Składnia kodu z pierwszego wydania tej książki odbiega od późniejszych standardów[120]. Program ten, w bardzo podobnej formie, znajdował się również w dokumencie Programming in C: A Tutorial, przygotowanym przez B. Kernighana w 1974 roku[121][122].
+
+main()
+{
+    printf("hello, world");
+}
+
+Powyższy kod prawdopodobnie nie zostanie skompilowany, jeśli nie wymusi się na kompilatorze przyjęcia standardu C90. Nowsza wersja tego programu, rozumiana przez współczesne kompilatory, wygląda następująco[120]:
+
+#include <stdio.h>
+
+int mai
+
+=== Strona 37 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 37888
+Od uruchomienia programu do wypisania strony upłynęło 2.126 sekund
+===============
+n(void){
+    printf("hello, world");
+}
+
+Pierwsza linijka tego kodu informuje preprocesor, aby dołączył w to miejsce zawartość pliku stdio.h, który wchodzi w skład biblioteki standardowej języka C[123]. Zadeklarowane w nim są procedury odpowiadające za obsługę wejścia i wyjścia, w tym printf[124]. Następnie definiowana jest funkcja main. To od niej rozpoczyna się wykonanie programu napisanego w C. Funkcja ta nie przyjmuje żadnych argumentów i zwraca wartość całkowitą. Wewnątrz nawiasów klamrowych znajduje się lista instrukcji, które zostaną wywołane po uruchomieniu programu[125].
+
+W przykładowym programie funkcja main składa się z jednej instrukcji: wywołania printf z argumentem "hello, world". Służy ono do wyświetlenia tekstu na ekranie[123]. Mogłaby się tam znaleźć jeszcze instrukcja return, ale zgodnie ze standardem ISO C, umieszczenie jej w funkcji main jest opcjonalne. Zwrócona do systemu operacyjnego zostanie wtedy wartość 0[126]. Wartość zwracana przez funkcję main to tzw. kod wyjścia[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][w innych języka
+
+=== Strona 38 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 38912
+Od uruchomienia programu do wypisania strony upłynęło 2.176 sekund
+===============
+ch] (ang. exit status albo return code), a wartość 0 zazwyczaj oznacza udane wykonanie programu[127][128].
+Zastosowania
+Zastosowania języka C
+
+Głównym celem, który przyświecał Dennisowi Ritchiemu przy tworzeniu języka C było ułatwienie pisania oprogramowania systemowego. Potrzebny był język wysokopoziomowy, ale jednocześnie tak wydajny jak asembler[129]. Z tego też powodu C bywa nazywany [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]wysokopoziomowym asemblerem[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][130]. Powstały w nim m.in. Unix[130] i jądro Linux[131]. W praktyce dla każdej nowej architektury język C jest pierwszym dostępnym językiem programowania poza asemblerem[132].
+
+W latach 80. XX wieku C zdobył popularność również wśród twórców oprogramowania aplikacyjnego. Jego głównymi konkurentami były wtedy BASIC i Pascal. C miał nad obydwoma przewagę, będąc dość ściśle ustandaryzowanym i pozbawionym niezgodnych ze sobą odmian. Ponadto zapewniał w tamtym czasie najpełniejsze wsparcie dla programowania strukturalnego, pozwalając również na hermetyzację kodu[130].
+
+Zastosowanie języka C pozwol
+
+=== Strona 39 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 39936
+Od uruchomienia programu do wypisania strony upłynęło 2.231 sekund
+===============
+iło części producentów oprogramowania zrezygnować ze stosowania języka asemblera[130]. W ten sposób postąpiono np. z Oracle Database w 1983 roku, co pozwoliło na osiągnięcie jego przenośności. W konsekwencji, Oracle Database 3 stało się pierwszym silnikiem relacyjnych baz danych, który można było uruchomić zarówno na komputerach typu mainframe, minikomputerach jak i komputerach osobistych[133]. W C został napisany również najpopularniejszy na świecie silnik bazodanowy, SQLite[134].
+
+Innymi przykładami oprogramowania przygotowanego w języku C są serwer HTTP Apache[135], biblioteka kryptograficzna OpenSSL[136], a także gry Doom[137] i Quake[138].
+
+Środowiska wykonawcze dla programów napisanych w innych językach również powstają z wykorzystaniem kodu w C. Dotyczy to np. Java Runtime Environment[139], CPythona (referencyjnej implementacji Pythona)[140] czy interpretera PHP[141]. Ponadto C bywa także stosowany jako język pośredni dla kompilatorów języków wyższego poziomu. Takie kompilatory zostały napisane m.in. d
+
+=== Strona 40 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 40960
+Od uruchomienia programu do wypisania strony upłynęło 2.279 sekund
+===============
+la Basica, Pythona czy Prologa[142]. Niektóre języki wymagają jednak cech, których C nie oferuje, np. rekurencji ogonowej albo wsparcia dla odśmiecania pamięci. Z tego powodu zaprojektowano m.in. C--[143].
+Popularność
+
+Język C, przez ponad 20 lat prowadzenia rankingu TIOBE Index[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][w innych językach] (od 2001 roku), plasował się na jednym z dwóch czołowych miejsc, trzykrotnie zdobywając miano [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]języka roku[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][144], nadawane językowi, który odnotuje najwyższy wzrost wskaźnika rankingowego rok do roku[145]. Z kolei w PYPL [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] alternatywnym rankingu popularności języków programowania [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] liczone łącznie języki C i C++ osiągnęły w czerwcu 2022 piątą lokatę[146].
+
+Badanie projektów open source na platformie GitHub z 2014 roku wskazało, że ok. 60% linii kodu źródłowego napisanych było w C, choć znajdowały się one jedynie w 10% przebadanych repozytoriów. Autorzy badania są zdania, że tak wysoka wartość pierwszego wskaźnika może wynikać w faktu, iż w C powstały znaczące części systemów operacyjnych, m.in. jądro Linu
+
+=== Strona 41 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 41984
+Od uruchomienia programu do wypisania strony upłynęło 2.339 sekund
+===============
+x i jego odmiany, które należą do projektów o największej bazie kodu[3].
+
+Według Stack Overflow Developer Survey 2022, co szósty profesjonalny programista zna język C. Większość respondentów (60%) oceniła go jednak jako [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]przerażający[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] (w dwustopniowej skali, drugą opcją było [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]uwielbiany[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]). Natomiast 4,3% osób zadeklarowało, że chce rozpocząć pracę z tym językiem[147].
+Wpływ
+
+Popularność i szerokie zastosowanie języka C ma bezpośredni wpływ na składnię lub semantykę innych języków programowania[132]. Przede wszystkim najbardziej podobnym i kompatybilnym jest język C++, który powstawał jako rozszerzenie [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]C z klasami[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][148]. Inne języki wykazujące podobieństwa do składni C to między innymi C#[149], csh[150], D[151], Go[152], IDL[153], Java[154] (w zasadzie do C++[155]), JavaScript[156], Objective-C[157], OpenCL[158], OpenGL[159], PAWN[160], Perl[161], PHP[162], tudzież Swift[163].
+Krytyka
+
+C charakteryzuje się słabym typowaniem. Jego specyfikacja pozwala na rzutowanie typów wskaźnikowych na dowolne in
+
+=== Strona 42 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 43008
+Od uruchomienia programu do wypisania strony upłynęło 2.401 sekund
+===============
+ne typy wskaźnikowe. W konsekwencji dowolny region pamięci może być traktowany tak, jakby zawierał dane dowolnego typu. Jednocześnie narzędzia wspomagające pisanie kodu nie są w stanie sprawdzić, czy konwersja typów jest sensowna[164]. W C jest ponadto dozwolone przypisanie wartości do zmiennej innego typu. Jako przykład słabości wynikającej ze słabego typowania, I. Pohl i D. Edelson podali typową implementację funkcji, zmieniającej małe litery na wielkie. Wykorzystuje ona operacje arytmetyczne na liczbach całkowitych oraz zmiennych typu char, mimo działania [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] na poziomie koncepcji [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] wyłącznie w dziedzinie znakowej[46]. Powszechne wykorzystanie wskaźników, pozwalających na niskopoziomowy dostęp do pamięci jest czynnikiem osłabiającym bezpieczeństwo programów. Niejawna konwersja typów całkowitoliczbowych (zmiana szerokości oraz możliwości przechowywania liczb ujemnych) oraz ciche przekroczenia zakresu wartości również należą do częstych przyczyn błędów oprogramowania, objawiających się w szczególności tam,
+
+=== Strona 43 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 44032
+Od uruchomienia programu do wypisania strony upłynęło 2.451 sekund
+===============
+ gdzie dokonywane są operacje pamięciowe i prowadzą zwykle do przepełnienia buforów[109].
+
+Mimo deklarowania tablic jako składające się z określonej liczby elementów, nie istnieje mechanizm sprawdzający, czy programista odwołuje się do elementu wewnątrz tablicy[165]; co więcej, dozwolone jest używanie ujemnych indeksów, aby odwołać się do obiektów leżących w pamięci przed zerowym[166]. Przeszkadza to w implementacji np. odśmiecania pamięci, ale też stanowi powszechne źródło trudnych do wykrycia błędów w oprogramowaniu[165]. Możliwość zapisu danych poza tablicę bywa wykorzystywana jako wektor ataku[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][w innych językach], prowadzącego do uzyskania kontroli nad systemem komputerowym poprzez wstrzyknięcie do programu odpowiednio spreparowanych poleceń lub zmianę stanu innych zmiennych[167].
+
+Wielowymiarowe tablice są w rzeczywistości tablicami jednowymiarowymi, co w przeszłości utrudniało pisanie funkcji wykonujących np. obliczenia macierzowe[168][165]. W pierwotnej wersji standardu język C nie wspierał obsługi t
+
+=== Strona 44 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 45056
+Od uruchomienia programu do wypisania strony upłynęło 2.501 sekund
+===============
+ablic o zmiennej (to znaczy ustalanej dopiero w momencie działania programu) liczbie elementów[169], w tym przekazywania takich tablic jako argumentów funkcji. Dlatego do adresowania np. elementów macierzy wykorzystywano pomocniczą tablicę wskaźników do pierwszych elementów każdego wiersza[168].
+
+Innym problemem, który podnoszono jest niekonsekwencja twórców standardu, objawiająca się w określeniach void i void*. Pierwsze z nich oznacza brak wartości. Zatem zgodnie z logiką konstruowania typów, ten drugi powinien być wskaźnikiem na wartość pustą. W rzeczywistości jednak jest to wskaźnik na wartość dowolnego typu. Jeszcze inne zastosowanie słowa void, niezwiązane z desygnowaniem typu, to wskazanie, że funkcja nie przyjmuje żadnych argumentów[165].
+
+Z perspektywy czasu niektóre decyzje dotyczące składni okazały się nieoptymalne. Jedną z nich jest niższy priorytet operatorów bitowych niż porównania, co wymusza pisanie konstrukcji takich jak (a & mask) == b, które bez nawiasów działałyby niezgodnie z intencją pro
+
+=== Strona 45 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 46080
+Od uruchomienia programu do wypisania strony upłynęło 2.552 sekund
+===============
+gramisty[4]. Inną z częściej spotykanych pułapek jest zamienienie operatorów porównania (==) i przypisania (=). Kod napisany w ten sposób pozostaje poprawny składniowo, więc pomyłka nie zostanie zgłoszona przez kompilator. Innym operatorem, który utrudnia zrozumienie programu jest przecinek, pozwalający na wykonanie kilku wyrażeń w jednej instrukcji. Ten sam symbol oddziela od siebie np. argumenty funkcji[46].
+
+Sama składnia deklarowania typów pochodnych również może konfundować. Założenie, że sposób deklaracji odpowiada sposobowi użycia zmiennej danego typu, spowodowało, że trzeba je czytać od środka na zewnątrz. Jest to konwencja trudna do uchwycenia przez wiele osób. Tego mankamentu dałoby się uniknąć, gdyby operator dereferencji był przyrostkowym, a nie przedrostkowym, jak to ma miejsce w C[4].
+
+Cechy języka, krytykowane jako trudne do odczytania lub zrozumienia, bywają również wykorzystywane do celowego zaciemniania kodu, czego skrajnym przypadkiem są programy zgłaszane do konkursu IOCCC[170].
+
+Standard 
+
+=== Strona 46 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 47104
+Od uruchomienia programu do wypisania strony upłynęło 2.601 sekund
+===============
+języka C opisuje wiele sytuacji, dla których zachowanie jest niezdefiniowane[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][w innych językach] lub nieokreślone[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][w innych językach]. Daje to pewne pole manewru na różne optymalizacje w zależności od platformy sprzętowej. W rezultacie ten sam kod skompilowany na różnych kompilatorach lub z różnymi opcjami kompilacji może się inaczej zachowywać[171]. W szczególności standard C nie określa, w jaki sposób przechowywane są w pamięci wielobajtowe wartości skalarne. Większość programów polega jedynie na domyślnym zachowaniu zapewnionym przez ABI. Nie zapewnia ono jednak przenośności między różnymi platformami[172]. Jest to jeden z głównych powodów nieprzenaszalności kodu, który ujawnia się podczas wymiany danych poprzez pamięć współdzieloną, masową lub ich transmisję[173]. Jedną z naczelnych zasad ducha programowania w C jest tworzenie wydajnego kodu nawet za cenę jego przenośności[174].
+
+Niezainicjowana zmienna[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][w innych językach] to problem, który dotyczy wielu języków programowania[175]. Błąd ten powstaje
+
+=== Strona 47 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 48128
+Od uruchomienia programu do wypisania strony upłynęło 2.654 sekund
+===============
+ z winy programisty[176]. Jest on trudny do wykrycia, gdyż taki program może się zupełnie inaczej zachowywać w środowisku diagnostycznym pod kontrolą debuggera niż w środowisku produkcyjnym[177] lub wręcz w kolejnych wykonaniach przy takich samych danych wejściowych[178]. Kompilator języka jedynie rezerwuje dla zmiennej obszar w pamięci, a jej wartość jest taka jaka wynika ze stanu bitów, która się w tej pamięci aktualnie znajduje[179]. Kompilator często ostrzega o próbie dostępu do niezainicjowanej zmiennej[180].
+Uwagi
+
+na przykład #pragma once
+Możliwe jest również stosowanie skróconej nazwy, bez członu int[66].
+Operator indeksowania tablic tab[i] jest z definicji równoważny wyrażeniu *(tab+i), a zatem indeksowanie jest przemienne. Konsekwencją tego faktu jest że zapisy tab[i] oraz i[tab] są równoważne i odnoszą się do i-tego elementu tablicy tab[73].
+Oznacza to, że dodanie liczby n do wskaźnika ptr na typ T zwróci nowy wskaźnik o adresie ptr + n * sizeof(T). Podobnie, odjęcie od siebie dwóch wskaźników, zwr
+
+=== Strona 48 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 49152
+Od uruchomienia programu do wypisania strony upłynęło 2.705 sekund
+===============
+óci różnicę indeksów tabeli, odpowiadających wskazywanym elementom.
+
+    W przypadku, gdy obiekt jest tablicą o zmiennej długości, jego czas życia rozpoczyna się w momencie napotkania deklaracji, a nie wejścia do bloku.
+
+Przypisy
+
+ISO/IEC 9899:2018 [online], ISO, czerwiec 2018 [dostęp 2022-06-29] (ang.).
+David Keaton, WG 14 N 2021 -- Preliminary C2x Charter [online], Open Standards, 12 marca 2016 [dostęp 2022-07-15] (ang.).
+Tegawendé F. Bissyandé i inni, Popularity, Interoperability, and Impact of Programming Languages in 100,000 Open Source Projects, 37th Annual International Computer Software & Applications Conference (COMPSAC 2013), Kioto, lipiec 2013 [dostęp 2022-06-24] (ang.).
+Dennis M. Ritchie, The development of the C language, [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]ACM SIGPLAN Notices[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], 28 (3), 1993, s. 201[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]208, DOI: 10.1145/155360.155580 [dostęp 2022-01-15] [zarchiwizowane z adresu 2022-01-07] (ang.).
+M. Douglas McIlroy, A Research UNIX Reader: Annotated Excerpts from the Programmer[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]s Manual, 1971-1986 [online], s. 10 [dostęp 202
+
+=== Strona 49 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 50176
+Od uruchomienia programu do wypisania strony upłynęło 2.764 sekund
+===============
+2-01-15] [zarchiwizowane z adresu 2021-11-01] (ang.).
+Stephen C. Johnson, Dennis M. Ritchie, Portability of C Programs and the UNIX System [online], s. 4 [dostęp 2022-01-15] [zarchiwizowane z adresu 2021-12-18] (ang.).
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 13.
+Gabor Kovesdan, c78(7) manual page [online] [dostęp 2022-01-15] [zarchiwizowane z adresu 2021-08-14] (ang.).
+Dennis M. Ritchie, Brian Kernighan, The C Programming Language, wyd. 1, Englewood Cliffs: Prentice-Hall, 1978, s. 34, ISBN 0-13-110163-3 (ang.).
+Dennis M. Ritchie, Brian Kernighan, The C Programming Language, wyd. 1, Englewood Cliffs: Prentice-Hall, 1978, s. 143, ISBN 0-13-110163-3 (ang.).
+Dennis M. Ritchie, Brian Kernighan, The C Programming Language, wyd. 1, Englewood Cliffs: Prentice-Hall, 1978, s. 121, ISBN 0-13-110163-3 (ang.).
+Bjarne Stroustrup, A history of C++, [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]ACM SIGPLAN Notices[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], 28 (3), 1993, DOI: 10.1145/154766.155375 [dostęp 2022-07-24] (ang.).
+Mark Gass, Using the New Features in ANSI C [online] [dostęp 2022-01-15] (ang.).
+Rational
+
+=== Strona 50 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:04
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 51200
+Od uruchomienia programu do wypisania strony upłynęło 2.817 sekund
+===============
+e for the ANSI C Programing Language, Sillicon Press, 1990, s. 52, ISBN 0-929306-07-4.
+David Lindnerr, Finnbarr P. Murphy, ISO C Amendment 1 (MSE) [online] [dostęp 2022-06-29] (ang.).
+ISO/IEC 9899:1990/Amendment 1:1995, 1995, s. 1, 2, 7 (ang.).
+ISO/IEC 9899:1990, 1990, s. 10[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]11 (ang.).
+Deepu Benson, Different C Standards: The Story of C [online], Open Source For You, 17 kwietnia 2017 [dostęp 2022-06-28] (ang.).
+Shrirang A. Kulkarni, C99 features in GCC on Fedora [online], Fedora Magazine, 9 grudnia 2016 [dostęp 2022-06-28] (ang.).
+ISO/IEC 9899:1999 [online], 1999, s. 160, 170, 253 (ang.).
+Danny Kalev, C11: A New C Standard Aiming at Safer Programming [online], SmartBear.com, 25 czerwca 2012 [dostęp 2022-06-29] (ang.).
+Elnar Dakeshov, C11 and C17 Standard Support Arriving in MSVC [online], C++ Team Blog, 14 września 2020 [dostęp 2022-06-29] (ang.).
+Author Jens Gustedt, C17 [online], Jens Gustedt[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]s Blog, 17 kwietnia 2018 [dostęp 2022-06-29] (ang.).
+The Current C Programming Language Standard [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] ISO/IEC 989
+
+=== Strona 51 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:05
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 52224
+Od uruchomienia programu do wypisania strony upłynęło 2.874 sekund
+===============
+9:2018 (C18) [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] ANSI Blog [online], The ANSI Blog, 13 listopada 2018 [dostęp 2022-06-29] (ang.).
+draft wersji C23 ( piąta wersja standardu) na stronach open-std.org ( bezpłatnie)
+Jarosław Stańczyk, Nowoczesny C. Przegląd C23 z przykładami, wyd. 1, Helion, 25 kwietnia 2023, s. 477, ISBN 978-83-283-9995-2.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. i.
+1.6. White Space, [w:] The GNU C Reference Manual, GNU [dostęp 2022-03-13].
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 9.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 28.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 43.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 20.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 44.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], §7.1.3 Reserved identifiers, s. 132.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 29.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 55.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 61.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 12.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 366.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 57[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]75.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 256.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 5.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 40.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 78[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]80.
+5. Functions, [w:] The GNU C Reference Manual, GNU [dostęp 2022-03-13] (ang.).
+Ira Pohl, Daniel Edels
+
+=== Strona 52 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:05
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 53248
+Od uruchomienia programu do wypisania strony upłynęło 2.962 sekund
+===============
+on, A to Z: C language shortcomings, [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]Computer Languages[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], 13 (2), 1988, s. 51[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]64, DOI: 10.1016/0096-0551(88)90009-4 (ang.).
+Kalsoom Bibi, Function Overloading in C [online] [dostęp 2022-03-13] (ang.).
+5.5 Variable Length Parameter Lists, [w:] The GNU C Reference Manual, GNU [dostęp 2022-03-13] (ang.).
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 108.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 109[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]110.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 110[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]112.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 118.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 118[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]121.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 305.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 127.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 54.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 60.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 257[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]258.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 262.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 258.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 61.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 61[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]62.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 257.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 31.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 20[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]22.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 80.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 62.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 24[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]25.
+Kernighan i 
+
+=== Strona 53 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:05
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 54272
+Od uruchomienia programu do wypisania strony upłynęło 3.067 sekund
+===============
+Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 65.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 32.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 136.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 45.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 288.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 138.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 130[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]131.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 141[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]143.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 67, 69.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 67.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 173[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]175.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 174.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 81.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 175[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]176.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 82.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 200.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 64.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 188.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 198[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]200.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 33.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 206[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]209.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 58.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 197.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 197[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]198.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 270[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]271.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 198.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 100.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 87.
+The const type qual
+
+=== Strona 54 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:05
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 55296
+Od uruchomienia programu do wypisania strony upłynęło 3.178 sekund
+===============
+ifier, [w:] IBM docs [online], ibm.com [dostęp 2022-07-10].
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 87, 408, 473.
+Rationale for the ANSI C Programing Language, Sillicon Press, 1990, s. 53, ISBN 0-929306-07-4.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 88.
+The volatile type qualifier, [w:] IBM docs [online], ibm.com [dostęp 2022-07-10].
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 87[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]88.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 200[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]209.
+Named address spaces and named-register storage classes, [w:] Programming languages [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] C [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] Extensions to support embedded processors, wyd. 2, 15 czerwca 2008, s. 37, 38, ISO/IEC TR 18037:2008(E).
+Memory Types, [w:] Cx51 User[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]s Guide [online], keil.com [dostęp 2022-07-10] (ang.).
+Type qualifiers, [w:] IBM Documentation [online], ibm.com [dostęp 2022-07-10] (ang.).
+Named Address Spaces, [w:] Using the GNU Compiler Collection [online], gcc.gnu.org [dostęp 2022-07-10].
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 30.
+Periklis Akritidis, Practical memory safety for C, [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]Technical Report[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], 798, Cambridge: University of Cambridge Department of Computer Science
+
+=== Strona 55 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:05
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 56320
+Od uruchomienia programu do wypisania strony upłynęło 3.245 sekund
+===============
+ and Technology, czerwiec 2011, s. 15, 24, ISSN 1476-2986 [dostęp 2022-07-24] (ang.).
+Identify what's causing segmentation faults (segfaults) [online], University Information Technology Services [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] Indiana University [dostęp 2022-08-21] (ang.).
+2 Data Types, [w:] The GNU C Reference Manual, GNU [dostęp 2022-08-20] (ang.).
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 119.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 79.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 304.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 115.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 278.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 253[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]254.
+Yves Younan i inni, Improving memory management security for C and C++, [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]International Journal of Secure Software Engineerin[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], 1 (2), 2010, DOI: 10.4018/jsse.2010040104 [dostęp 2022-07-24] (ang.).
+Dennis M. Ritchie, Brian Kernighan, The C Programming Language, wyd. 1, Englewood Cliffs: Prentice-Hall, 1978, s. 6, ISBN 0-13-110163-3 (ang.).
+C Language Tutorial => Original [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]Hello, World![[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] in K&R C [online], riptutorial.com [dostęp 2022-04-12].
+Brian W. Kernighan, Programming in C:
+
+=== Strona 56 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:05
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 57344
+Od uruchomienia programu do wypisania strony upłynęło 3.314 sekund
+===============
+ A Tutorial, Bell Laboratories, 1974, s. 1 [dostęp 2022-04-12] [zarchiwizowane z adresu 2022-03-22] (ang.).
+Dennis M. Ritchie, C Reference Manual [online], Bell Telephone Laboratories, s. 25 [dostęp 2022-04-12] [zarchiwizowane z adresu 2022-04-12] (ang.).
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 25.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 322[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]325.
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 24[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]25.
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 11.
+5.7 The main Function, [w:] The GNU C Reference Manual, GNU [dostęp 2022-03-13].
+Piotr Szawdyński, [lekcja] Podstawy programowania w C++ [online], cpp0x.pl [dostęp 2022-08-20].
+P. Fazio, K. Gowri, Structural analysis software and the C programming language, [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]Computers & Structures[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], 25 (3), 1987, s. 463, DOI: 10.1016/0045-7949(87)90138-6 (ang.).
+Russel Jones, The C programming language: Popularity grows for the high-level assembly language, [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]Data Processing[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], 27 (10), 1985, s. 35[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]38, DOI: 10.1016/0011-684X(85)90032-2 (ang.).
+Programming Language [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] The Linux Kernel documentation [online], www.kerne
+
+=== Strona 57 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:05
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 58368
+Od uruchomienia programu do wypisania strony upłynęło 3.381 sekund
+===============
+l.org [dostęp 2022-06-10] (ang.).
+Robert Chatley, Alastair Donaldson, Alan Mycroft, The next 7000 programming languages, §2.2 Systems programming and the rise of C, DOI: 10.1007/978-3-319-91908-9_15.
+Brief History of Oracle Database, [w:] Lance Ashdown, Donna Keesling, Tom Kyte, Introduction to Oracle Database, Oracle Help Center [dostęp 2022-06-10] (ang.).
+SQLite Home Page [online], www.sqlite.org [dostęp 2022-06-10] (ang.).
+Apache Software Foundation, apache/httpd [online], GitHub [dostęp 2022-06-10] (ang.).
+OpenSSL Project, openssl/openssl: TLS/SSL and crypto library [online], GitHub [dostęp 2022-06-10] (ang.).
+Paul C. Schuytema, The Lighter Side Of Doom, [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]Computer Gaming World[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], 121, sierpień 1994, s. 140, 142 (ang.).
+id-Software, id-Software/Quake: Quake GPL Source Release [online], GitHub [dostęp 2022-06-10] (ang.).
+The Java(tm) Language: An Overview [online], web.archive.org, 22 lutego 2008 [dostęp 2022-06-10] [zarchiwizowane z adresu 2008-02-22] (ang.).
+Python Software Foundation, python/cpython: 
+
+=== Strona 58 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:05
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 59392
+Od uruchomienia programu do wypisania strony upłynęło 3.430 sekund
+===============
+The Python programming language [online], GitHub [dostęp 2022-06-10] (ang.).
+The PHP Group, php/php-src: The PHP Interpreter [online], GitHub [dostęp 2022-06-10] (ang.).
+D. Bohdan, Compilers targeting C [online], GitHub, 30 czerwca 2021 [dostęp 2022-06-10] (ang.).
+Simon Peyton Jones, Thomas Nordin, Dino Oliva, C--: A portable assembly language, [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]Implementation of Functional Languages[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], 1997, DOI: 10.1007/BFb0055421 (ang.).
+C: TIOBE Index [online], TIOBE [dostęp 2022-06-13] (ang.).
+Programming Language Hall of Fame, [w:] TIOBE Index, TIOBE [dostęp 2022-06-13] (ang.).
+PYPL PopularitY of Programming Language index [online], pypl.github.io [dostęp 2022-06-13] [zarchiwizowane z adresu 2022-06-11] (ang.).
+Technology, [w:] Stack Overflow Developer Survey 2022, Stack Overflow [dostęp 2022-06-22] (ang.).
+Bjarne Stroustrup, A History of C++: 1979[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]1991, [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]ACM SIGPLAN Notices[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], 28 (3), s. 271-297, DOI: 10.1145/154766.155375 [dostęp 2022-08-13].
+Ian Chivers, Essential C# fast, Springer, 2003, s. 4, DOI: 10.1007/9
+
+=== Strona 59 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:05
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 60416
+Od uruchomienia programu do wypisania strony upłynęło 3.486 sekund
+===============
+78-1-4471-0075-1, Cytat: In terms of syntax, it belongs in the same family of programming languages as C, C++ and Java.
+Chuck Easttom, System Forensics, Investigation and Response, Jones & Bartlett Publishers, 2013, s. 188, ISBN 1-284-03108-X, Cytat: it uses very C-like syntax.
+Walter Bright, Andrei Alexandrescu, Michael Parker, Origins of the D programming language, [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]Proceedings of the ACM on Programming Languages[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], 4 (HOPL), 2020, 73:18, DOI: 10.1145/3386323, Cytat: D intentionally looks very much like C and C++.
+Dušan Stojanović, Building Server-side and Microservices with Go, s. 10, Cytat: Sytactically, Go is similar to C, but many "features" are borrowed from other languages.
+Martin Gudgin, Essential IDL: Interface Design for COM, Addison-Wesley, 2001, s. 6, ISBN 0-201-61595-9, Cytat: IDL has syntax based on the C programming language.
+Dhiraj Kumar Baraik, Modern JAVA : Functional Programming, 2021, s. 13, Cytat: Its syntax is similar to C and C++.
+Autorzy David Reilly, Michael Reilly, Java Network P
+
+=== Strona 60 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:05
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 61440
+Od uruchomienia programu do wypisania strony upłynęło 3.538 sekund
+===============
+rogramming and Distributed Computing, Addison-Wesley Professional, 2002, s. 28, ISBN 0-201-71037-4, Cytat: oryginally modified C++ compiler.
+Aaron Gustafson, Introduction to JavaScript, [w:] Jennifer Niederst Robbins, Web Design in a Nutshell: A Desktop Quick Reference, O'Reilly Media, 2006, s. 465, ISBN 1-4493-7909-5, Cytat: similar to the C programming language and share similar syntax.
+Andrew M. Duncan, Objective-C Pocket Reference, O'Reilly Media, 2002, s. 1, ISBN 0-596-55219-X, Cytat: Objective-C uses C syntax.
+Unnikrishnan Cheramangalath, Rupesh Nasre, Y.N. Srikant, Distributed Graph Analytics: Programming, Languages, and Their Compilation, Springer Nature, 2020, s. 14, ISBN 3-030-41886-3, Cytat: has C-like syntax.
+Dan Ginsburg i inni, OpenGL ES 3.0 Programming Guide, wyd. 2, Addison-Wesley Professional, 2014, s. 98, ISBN 0-13-344012-5, Cytat: the syntax bears great similarity to that seen in the C programming language.
+Jason Gregory, Game Engine Architecture, §16.9.3.5 Pawn/Small/Small-C, ISBN 1-351-97
+
+=== Strona 61 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:05
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 62464
+Od uruchomienia programu do wypisania strony upłynęło 3.587 sekund
+===============
+427-0, Cytat: C-like scripting language.
+Adam McDaniel, Perl and Apache: Your visual blueprint for developing dynamic Web content, John Wiley & Sons, 2010, s. 3, ISBN 0-470-94438-2, Cytat: The Perl programming language uses a syntax structure that is very similar to C in design.
+K.L. JAMES, THE INTERNET: A USER[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]S GUIDE, wyd. 2, PHI Learning, 2010, s. 210, ISBN 81-203-4029-9, Cytat: Syntax of PHP language is similar to C or C++.
+Gulsun Kurubacak, Hakan Altinpulluk (red.), Mobile Technologies and Augmented Reality in Open Education, IGI Global, 2017, s. 128, ISBN 1-5225-2111-9, Cytat: The swift script uses a C-like syntax to describe data, application components, invocation of application components, and the data flow among the invocations.
+Satish Chandra, Thomas Reps, Physical type checking for C, New York, NY, USA: Association for Computing Machinery, 1 września 1999, s. 66, DOI: 10.1145/316158.316183, ISBN 978-1-58113-137-6 (ang.).
+Generic C Criticisms, [w:] Ian Joyner, C++??: A Critique of C++, wyd. 3, gr
+
+=== Strona 62 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:05
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 63488
+Od uruchomienia programu do wypisania strony upłynęło 3.638 sekund
+===============
+udzień 1996 [dostęp 2022-06-15] [zarchiwizowane z adresu 2000-08-23].
+Kernighan i Ritchie 2002 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. 139.
+Marek Wrona, Niebezpieczeństwo komputerowe, Warszawa: Wydaw. RM, [cop. 2000], s. 40-46, ISBN 83-7243-076-4, OCLC 749501645.
+William H. Press i inni, Numerical Recipes in C: The Art of Scientific Computing, wyd. 2, Cambridge: Cambridge University Press, 1992, s. 22, ISBN 0-521-43108-5 (ang.).
+ISO/IEC9899:2017 [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], s. xv.
+Dan Gopstein i inni, Understanding misunderstandings in source code, ESEC/FSE 2017: Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering, Nowy Jork: Association for Computing Machinery, 21 sierpnia 2017, s. 129[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]139, DOI: 10.1145/3106237.3106264, ISBN 978-1-4503-5105-8 (ang.).
+Robert C. Seacord, Effective C: An Introduction to Proffesional C Programming, 2020, xxv, ISBN 978-1-71850-104-1, LCCN 2020017147.
+David Delmas, Abdelraouf Ouadjaout, Antoine Miné, Static Analysis of Endian Portability by Abstract Interpretation, [w:] Cezara Drăgoi, Suvam Mukherjee, Ke
+
+=== Strona 63 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:05
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 64512
+Od uruchomienia programu do wypisania strony upłynęło 3.689 sekund
+===============
+dar Namjoshi (red.), Static Analysis, [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]Lecture notes in computer science[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]], 12913, 28th International Symposium, SAS 2021, Chicago, IL, USA, October 17[[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]19, 2021, Proceedings, 2021, s. 103, DOI: 10.1007/978-3-030-88806-0_5, ISBN 978-3-030-88805-3.
+Max Domeika, Software Development for Embedded Multi-core Systems, 2008, s. 95, ISBN 978-0-7506-8539-9.
+Rationale for the ANSI C Programing Language, Sillicon Press, 1990, s. 3, ISBN 0-929306-07-4, Cytat: Make it fast, even if it is not guaranteed to be portable.
+Hubertus B. Keller, Erhard Plödereder (red.), Reliable Software Technologies Ada-Europe 2000: 5th Ada-Europe International Conference Potsdam, Germany, June 26-30, 2000, Proceedings, Springer, 2006, s. 38.
+Yung-Hsiang Lu, Intermediate C Programming, CRC Press, 2015, s. 36, ISBN 1-4987-1164-2.
+Andreas Zeller, Why Programs Fail: A Guide to Systematic Debugging, Elsevier, 2009, s. 89, ISBN 0-08-092300-3.
+Sartaj Sahni, Robert F. Cmelik, Bob Cmelik, Software Development in C, Silicon Press, 1995, s. 164, ISB
+
+=== Strona 63 ===
+Plik: ..\tekst.txt
+Data wydruku: 12-11-2024 18:15:05
+Właściciel: Bilbo Baggins
+Rzeczywista długość (w bajtach): 65226
+Od uruchomienia programu do wypisania strony upłynęło 3.740 sekund
+===============
+N 0-929306-16-3.
+Randall Hyde, Write Great Code, Vol. 2: Thinking Low-Level, Writing High-Level, No Starch Press, 2004, s. 336, ISBN 1-59327-065-8.
+
+    Robert C. Seacord, The CERT® C Coding Standard, Second Edition: 98 Rules for Developing Safe, Reliable, and Secure Systems, wyd. 2, Addison-Wesley Professional, 2014, s. 56, ISBN 0-13-380529-8.
+
+Bibliografia
+
+    Brian W. Kernighan, Dennis M. Ritchie, Język ANSI C, D. Kruszewska (tłum.), M. Kruszewski (tłum.), wyd. 7, Warszawa: Wydawnictwa Naukowo-Techniczne, 2002, ISBN 83-204-2719-3 (pol.).
+    ISO/IEC9899:2017 Draft [online], 2017 (ang.). Znak utf16 -> [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]
+
+    İnanç Esasları
+    hello wörld
+    pythön!   ©©©© [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]] [[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]][[Nieznany znak!]]
+
+

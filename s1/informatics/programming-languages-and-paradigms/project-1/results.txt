@@ -1,0 +1,12 @@
+x		f_szereg(x)	f_scisle(x)	liczba wyrazow	warunek stopu
+   -0.9000	    1.2386	    1.2386	40		limit
+   -0.7200	    1.1981	    1.1981	40		limit
+   -0.5400	    1.1548	    1.1548	40		precyzja/limit
+   -0.3600	    1.1079	    1.1079	25		precyzja
+   -0.1800	    1.0567	    1.0567	16		precyzja
+   -0.0000	    1.0000	    1.0000	2		precyzja
+    0.1800	    0.9360	    0.9360	16		precyzja
+    0.3600	    0.8618	    0.8618	25		precyzja
+    0.5400	    0.7719	    0.7719	40		precyzja/limit
+    0.7200	    0.6542	    0.6542	40		limit
+    0.9000	    0.4644	    0.4642	40		limit

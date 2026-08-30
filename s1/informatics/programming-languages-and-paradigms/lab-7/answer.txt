@@ -1,0 +1,104 @@
+######### PLIK_1 #########
+
+Zmienne i funkcje:
+
+1. fun1 (funkcja):
+- typ: double fun1()
+- klasa pamięci: funkcja zdefiniowana globalnie
+- obszar działania: Cały program, ponieważ jest zadeklarowana globalnie (widoczna we wszystkich plikach, które ją zadeklarują)
+- działanie: funkcja ta nie jest używana bezpośrednio w main, ale może być wywoływana w innych częściach programu, ponieważ jest zdefiniowana w file-1.cpp
+
+2. fun2 (funkcja):
+- typ: static int fun2()
+- klasa pamięci: funkcja lokalna zdefiniowana jako static
+- obszar działania: Lokalny tylko w file-1.cpp funkcja jest dostępna tylko w tym pliku, ponieważ jest zadeklarowana jako static
+- działanie: funkcja ta wypisuje "ppp fun2", inkrementuje zmienną statyczną k i zwraca jej wartość
+
+3. fun3 (funkcja):
+- typ: extern int fun3()
+- klasa pamięci: funkcja zdefiniowana globalnie w innym pliku (z adnotacją extern)
+- obszar działania: funkcja ta jest zadeklarowana jako zewnętrzna -jej definicja znajduje się w plik_2.cpp, ale jest dostępna również w file-1.cpp
+- działanie: funkcja ta wywołuje funkcję fun2() i zwraca wartość 5
+
+4. c (zmienna):
+- typ: static int c = 5
+- klasa pamięci: Statyczna zmienna globalna
+- obszar działania: Lokalny w file-1.cpp (dzięki adnotacji static)
+- działanie: Zmienna statyczna, która przechowuje wartość 5
+
+5. a, b (zmienne):
+- typ: double a, b = 10;
+- klasa pamięci: Zmienne globalne
+- obszar działania: Globalny, dostępne w całym programie
+- działanie: Zmienne przechowują wartości typu double, gdzie a jest niezainicjalizowana, a b ma wartość 10
+
+6. xx[] (tablica wskaźników na char):
+- typ: char *xx[] = { "mama", "tato", "stryjek", (char *)0 };
+- klasa pamięci: Tablica wskaźników globalna
+-obszar działania: Globalny (brak static)
+- działanie: Tablica wskaźników do stringów, która przechowuje wskaźniki na napisy
+
+7. aa[] (tablica double):
+- typ: double aa[] = { 1, 2, 3, 4, 5, 6 };
+- klasa pamięci: Zmienna globalna
+- obszar działania: Globalny (brak static)
+- działanie: Tablica przechowująca wartości zmiennoprzecinkowe typu double
+
+8. aa[] (w main) (tablica double):
+- typ: static double aa[] = { 11, 12, 13, 14, 15, 16 };
+- klasa pamięci: Zmienna lokalna w funkcji main, ale statyczna
+- obszar działania: Lokalny tylko w funkcji main, ale przechowuje swoje wartości przez cały czas działania programu
+
+Przykład wywołań funkcji:
+- funkcja fun2() jest wywoływana w main (przypisanie do zmiennej j)
+- funkcja fun3() jest wywoływana w main (przypisanie do zmiennej k)
+
+Tekst na monitorze:
+Wartości tablicy aa[] w main: 11.000000 12.000000
+Wartości zwrócone przez funkcje fun2() i dun3(): j = 1, k = 5
+
+######### PLIK_2 #########
+
+Zmienne i funkcje:
+
+1. fun1 (funkcja):
+- typ: extern double fun1()
+- klasa pamięci: funkcja zdefiniowana w innym pliku (file-1.cpp)
+- obszar działania: Dostępna globalnie
+
+2. fun2 (funkcja):
+- typ: static double fun2()
+- klasa pamięci: funkcja lokalna w plik_2.cpp, oznaczona jako static
+- obszar działania: Lokalna tylko w plik_2.cpp
+- działanie: funkcja wypisuje "qqq fun2" i zwraca wartość 20
+
+3. fun3 (funkcja):
+- typ: int fun3()
+- klasa pamięci: funkcja globalna
+- obszar działania: Dostępna globalnie
+- działanie: funkcja wywołuje fun2() i zwraca 5
+
+4. c[] (tablica wskaźników na char):
+- typ: static char *c[] = { "slon", "lew", "pantera", (char *)0 };
+- klasa pamięci: Tablica statyczna lokalna
+- obszar działania: Lokalny w plik_2.cpp
+
+5. xx[] (tablica wskaźników na char):
+- typ: extern char *xx[];
+- klasa pamięci: Zmienna zdefiniowana w file-1.cpp
+- obszar działania: Globalny, dostępna także w plik_2.cpp
+
+funkcja fun2() jest wywoływana w fun3() w plik_2.cpp
+funkcja fun3() jest wywoływana w main() w file-1.cpp
+
+Program wypisuje:
+1. Tekst z funkcji fun2():
+qqq fun2
+2. Tekst z funkcji fun3():
+qqq fun3
+
+Podsumowując na ekranie pojawi się:
+11.000000 12.000000
+j = 1, k = 5
+qqq fun2
+qqq fun3

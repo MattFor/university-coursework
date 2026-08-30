@@ -1,0 +1,451 @@
+Algorithm,TestType,ArraySize,Duration_ms
+Bubble Sort,Mixed,10,0.0084
+Bubble Sort,All Negative,10,0.0078
+Bubble Sort,All Positive,10,0.0102
+Bubble Sort,Already Sorted,10,0.0031
+Bubble Sort,Reverse Sorted,10,0.0094
+Bubble Sort,Mixed,50,0.1975
+Bubble Sort,All Negative,50,0.1589
+Bubble Sort,All Positive,50,0.1884
+Bubble Sort,Already Sorted,50,0.0077
+Bubble Sort,Reverse Sorted,50,0.0076
+Bubble Sort,Mixed,100,0.6994
+Bubble Sort,All Negative,100,0.871
+Bubble Sort,All Positive,100,0.7427
+Bubble Sort,Already Sorted,100,0.0172
+Bubble Sort,Reverse Sorted,100,0.0172
+Bubble Sort,Mixed,300,6.3926
+Bubble Sort,All Negative,300,6.1231
+Bubble Sort,All Positive,300,5.9438
+Bubble Sort,Already Sorted,300,0.0469
+Bubble Sort,Reverse Sorted,300,0.0428
+Bubble Sort,Mixed,750,37.0903
+Bubble Sort,All Negative,750,33.1492
+Bubble Sort,All Positive,750,36.4533
+Bubble Sort,Already Sorted,750,0.1708
+Bubble Sort,Reverse Sorted,750,0.097
+Bubble Sort,Mixed,1000,63.8852
+Bubble Sort,All Negative,1000,56.6989
+Bubble Sort,All Positive,1000,57.0691
+Bubble Sort,Already Sorted,1000,0.1424
+Bubble Sort,Reverse Sorted,1000,0.0956
+Bubble Sort,Mixed,3000,546.806
+Bubble Sort,All Negative,3000,524.274
+Bubble Sort,All Positive,3000,533.988
+Bubble Sort,Already Sorted,3000,0.3332
+Bubble Sort,Reverse Sorted,3000,0.3288
+Bubble Sort,Mixed,4500,1281.72
+Bubble Sort,All Negative,4500,1226
+Bubble Sort,All Positive,4500,1236.38
+Bubble Sort,Already Sorted,4500,0.6121
+Bubble Sort,Reverse Sorted,4500,0.4893
+Bubble Sort,Mixed,6000,2259.95
+Bubble Sort,All Negative,6000,2254.94
+Bubble Sort,All Positive,6000,2225.75
+Bubble Sort,Already Sorted,6000,0.6873
+Bubble Sort,Reverse Sorted,6000,0.6908
+Bubble Sort,Mixed,7000,2979.02
+Bubble Sort,All Negative,7000,3371.04
+Bubble Sort,All Positive,7000,3596.43
+Bubble Sort,Already Sorted,7000,0.8063
+Bubble Sort,Reverse Sorted,7000,1.0328
+Bubble Sort,Mixed,8000,4466.46
+Bubble Sort,All Negative,8000,4710.39
+Bubble Sort,All Positive,8000,3977.19
+Bubble Sort,Already Sorted,8000,1.3309
+Bubble Sort,Reverse Sorted,8000,0.8646
+Bubble Sort,Mixed,9000,5601.79
+Bubble Sort,All Negative,9000,4847.99
+Bubble Sort,All Positive,9000,4814.59
+Bubble Sort,Already Sorted,9000,0.9858
+Bubble Sort,Reverse Sorted,9000,1.1696
+Bubble Sort,Mixed,10000,5913.84
+Bubble Sort,All Negative,10000,5925.58
+Bubble Sort,All Positive,10000,5937.18
+Bubble Sort,Already Sorted,10000,1.1231
+Bubble Sort,Reverse Sorted,10000,1.1678
+Bubble Sort,Mixed,15000,13581.2
+Bubble Sort,All Negative,15000,13563.6
+Bubble Sort,All Positive,15000,13437
+Bubble Sort,Already Sorted,15000,1.4971
+Bubble Sort,Reverse Sorted,15000,1.8954
+Bubble Sort,Mixed,20000,24741.9
+Bubble Sort,All Negative,20000,29355.9
+Bubble Sort,All Positive,20000,27004
+Bubble Sort,Already Sorted,20000,2.4791
+Bubble Sort,Reverse Sorted,20000,2.4777
+Heap Sort,Mixed,10,0.008
+Heap Sort,All Negative,10,0.0032
+Heap Sort,All Positive,10,0.0051
+Heap Sort,Already Sorted,10,0.0053
+Heap Sort,Reverse Sorted,10,0.0063
+Heap Sort,Mixed,50,0.0048
+Heap Sort,All Negative,50,0.0219
+Heap Sort,All Positive,50,0.0266
+Heap Sort,Already Sorted,50,0.0134
+Heap Sort,Reverse Sorted,50,0.0174
+Heap Sort,Mixed,100,0.0388
+Heap Sort,All Negative,100,0.0699
+Heap Sort,All Positive,100,0.0643
+Heap Sort,Already Sorted,100,0.0364
+Heap Sort,Reverse Sorted,100,0.0357
+Heap Sort,Mixed,300,0.0645
+Heap Sort,All Negative,300,0.1897
+Heap Sort,All Positive,300,0.2132
+Heap Sort,Already Sorted,300,0.0889
+Heap Sort,Reverse Sorted,300,0.1012
+Heap Sort,Mixed,750,0.174
+Heap Sort,All Negative,750,0.5406
+Heap Sort,All Positive,750,0.5422
+Heap Sort,Already Sorted,750,0.195
+Heap Sort,Reverse Sorted,750,0.2132
+Heap Sort,Mixed,1000,0.4873
+Heap Sort,All Negative,1000,0.9027
+Heap Sort,All Positive,1000,0.752
+Heap Sort,Already Sorted,1000,0.3746
+Heap Sort,Reverse Sorted,1000,0.272
+Heap Sort,Mixed,3000,0.6545
+Heap Sort,All Negative,3000,2.3971
+Heap Sort,All Positive,3000,2.5352
+Heap Sort,Already Sorted,3000,0.876
+Heap Sort,Reverse Sorted,3000,0.9026
+Heap Sort,Mixed,4500,2.7236
+Heap Sort,All Negative,4500,3.5982
+Heap Sort,All Positive,4500,3.503
+Heap Sort,Already Sorted,4500,1.474
+Heap Sort,Reverse Sorted,4500,1.2216
+Heap Sort,Mixed,6000,3.517
+Heap Sort,All Negative,6000,4.7527
+Heap Sort,All Positive,6000,4.8514
+Heap Sort,Already Sorted,6000,1.6374
+Heap Sort,Reverse Sorted,6000,1.9742
+Heap Sort,Mixed,7000,4.7791
+Heap Sort,All Negative,7000,5.5201
+Heap Sort,All Positive,7000,5.3373
+Heap Sort,Already Sorted,7000,1.8752
+Heap Sort,Reverse Sorted,7000,1.9703
+Heap Sort,Mixed,8000,5.4264
+Heap Sort,All Negative,8000,6.0192
+Heap Sort,All Positive,8000,5.9671
+Heap Sort,Already Sorted,8000,1.9474
+Heap Sort,Reverse Sorted,8000,1.993
+Heap Sort,Mixed,9000,7.0196
+Heap Sort,All Negative,9000,7.0746
+Heap Sort,All Positive,9000,7.0483
+Heap Sort,Already Sorted,9000,2.3608
+Heap Sort,Reverse Sorted,9000,2.3912
+Heap Sort,Mixed,10000,7.093
+Heap Sort,All Negative,10000,7.9938
+Heap Sort,All Positive,10000,7.9206
+Heap Sort,Already Sorted,10000,2.4593
+Heap Sort,Reverse Sorted,10000,2.6966
+Heap Sort,Mixed,15000,7.7502
+Heap Sort,All Negative,15000,11.2449
+Heap Sort,All Positive,15000,11.7787
+Heap Sort,Already Sorted,15000,3.8045
+Heap Sort,Reverse Sorted,15000,3.9494
+Heap Sort,Mixed,20000,13.0674
+Heap Sort,All Negative,20000,16.28
+Heap Sort,All Positive,20000,14.8405
+Heap Sort,Already Sorted,20000,4.7109
+Heap Sort,Reverse Sorted,20000,6.1902
+Insertion Sort,Mixed,10,0.0054
+Insertion Sort,All Negative,10,0.0078
+Insertion Sort,All Positive,10,0.0061
+Insertion Sort,Already Sorted,10,0.0021
+Insertion Sort,Reverse Sorted,10,0.007
+Insertion Sort,Mixed,50,0.0901
+Insertion Sort,All Negative,50,0.1193
+Insertion Sort,All Positive,50,0.1044
+Insertion Sort,Already Sorted,50,0.008
+Insertion Sort,Reverse Sorted,50,0.0065
+Insertion Sort,Mixed,100,0.4321
+Insertion Sort,All Negative,100,0.3687
+Insertion Sort,All Positive,100,0.2792
+Insertion Sort,Already Sorted,100,0.015
+Insertion Sort,Reverse Sorted,100,0.012
+Insertion Sort,Mixed,300,2.9143
+Insertion Sort,All Negative,300,2.9042
+Insertion Sort,All Positive,300,2.9481
+Insertion Sort,Already Sorted,300,0.0376
+Insertion Sort,Reverse Sorted,300,0.049
+Insertion Sort,Mixed,750,21.2882
+Insertion Sort,All Negative,750,17.9672
+Insertion Sort,All Positive,750,16.3351
+Insertion Sort,Already Sorted,750,0.102
+Insertion Sort,Reverse Sorted,750,0.104
+Insertion Sort,Mixed,1000,32.899
+Insertion Sort,All Negative,1000,30.7427
+Insertion Sort,All Positive,1000,32.978
+Insertion Sort,Already Sorted,1000,0.1182
+Insertion Sort,Reverse Sorted,1000,0.2343
+Insertion Sort,Mixed,3000,260.264
+Insertion Sort,All Negative,3000,267.565
+Insertion Sort,All Positive,3000,285.473
+Insertion Sort,Already Sorted,3000,0.422
+Insertion Sort,Reverse Sorted,3000,0.4137
+Insertion Sort,Mixed,4500,607.427
+Insertion Sort,All Negative,4500,598.269
+Insertion Sort,All Positive,4500,594.043
+Insertion Sort,Already Sorted,4500,0.5422
+Insertion Sort,Reverse Sorted,4500,0.4657
+Insertion Sort,Mixed,6000,1097.4
+Insertion Sort,All Negative,6000,1046.79
+Insertion Sort,All Positive,6000,1026.76
+Insertion Sort,Already Sorted,6000,0.7968
+Insertion Sort,Reverse Sorted,6000,0.6988
+Insertion Sort,Mixed,7000,1431.19
+Insertion Sort,All Negative,7000,1487.96
+Insertion Sort,All Positive,7000,1467.99
+Insertion Sort,Already Sorted,7000,0.9223
+Insertion Sort,Reverse Sorted,7000,0.9099
+Insertion Sort,Mixed,8000,1826.73
+Insertion Sort,All Negative,8000,1958.34
+Insertion Sort,All Positive,8000,1930.1
+Insertion Sort,Already Sorted,8000,1.6953
+Insertion Sort,Reverse Sorted,8000,0.972
+Insertion Sort,Mixed,9000,2366.36
+Insertion Sort,All Negative,9000,2372.93
+Insertion Sort,All Positive,9000,2378.77
+Insertion Sort,Already Sorted,9000,1.1678
+Insertion Sort,Reverse Sorted,9000,1.0558
+Insertion Sort,Mixed,10000,2976.49
+Insertion Sort,All Negative,10000,3043.68
+Insertion Sort,All Positive,10000,2970.27
+Insertion Sort,Already Sorted,10000,1.1505
+Insertion Sort,Reverse Sorted,10000,1.1973
+Insertion Sort,Mixed,15000,6960.89
+Insertion Sort,All Negative,15000,6272.98
+Insertion Sort,All Positive,15000,5893.04
+Insertion Sort,Already Sorted,15000,1.7961
+Insertion Sort,Reverse Sorted,15000,1.632
+Insertion Sort,Mixed,20000,10168.9
+Insertion Sort,All Negative,20000,10555.6
+Insertion Sort,All Positive,20000,12353.8
+Insertion Sort,Already Sorted,20000,1.9518
+Insertion Sort,Reverse Sorted,20000,1.9638
+Selection Sort,Mixed,10,0.0106
+Selection Sort,All Negative,10,0.0108
+Selection Sort,All Positive,10,0.0075
+Selection Sort,Already Sorted,10,0.0115
+Selection Sort,Reverse Sorted,10,0.0073
+Selection Sort,Mixed,50,0.1707
+Selection Sort,All Negative,50,0.1777
+Selection Sort,All Positive,50,0.1455
+Selection Sort,Already Sorted,50,0.1726
+Selection Sort,Reverse Sorted,50,0.1794
+Selection Sort,Mixed,100,0.6922
+Selection Sort,All Negative,100,0.7525
+Selection Sort,All Positive,100,0.6654
+Selection Sort,Already Sorted,100,0.6332
+Selection Sort,Reverse Sorted,100,0.6707
+Selection Sort,Mixed,300,5.2233
+Selection Sort,All Negative,300,4.6694
+Selection Sort,All Positive,300,4.9191
+Selection Sort,Already Sorted,300,5.0059
+Selection Sort,Reverse Sorted,300,4.9822
+Selection Sort,Mixed,750,27.4447
+Selection Sort,All Negative,750,27.2313
+Selection Sort,All Positive,750,26.2112
+Selection Sort,Already Sorted,750,26.3966
+Selection Sort,Reverse Sorted,750,26.8984
+Selection Sort,Mixed,1000,46.2652
+Selection Sort,All Negative,1000,47.4024
+Selection Sort,All Positive,1000,47.8902
+Selection Sort,Already Sorted,1000,57.4972
+Selection Sort,Reverse Sorted,1000,61.8105
+Selection Sort,Mixed,3000,434.704
+Selection Sort,All Negative,3000,604.089
+Selection Sort,All Positive,3000,469.418
+Selection Sort,Already Sorted,3000,427.839
+Selection Sort,Reverse Sorted,3000,516.662
+Selection Sort,Mixed,4500,1126.9
+Selection Sort,All Negative,4500,1294.91
+Selection Sort,All Positive,4500,1251.78
+Selection Sort,Already Sorted,4500,1124.93
+Selection Sort,Reverse Sorted,4500,1142.25
+Selection Sort,Mixed,6000,1986.72
+Selection Sort,All Negative,6000,1997.47
+Selection Sort,All Positive,6000,1932.46
+Selection Sort,Already Sorted,6000,2166.66
+Selection Sort,Reverse Sorted,6000,2054.16
+Selection Sort,Mixed,7000,2656.74
+Selection Sort,All Negative,7000,2657.34
+Selection Sort,All Positive,7000,2692.77
+Selection Sort,Already Sorted,7000,2710.46
+Selection Sort,Reverse Sorted,7000,2664.59
+Selection Sort,Mixed,8000,3544.23
+Selection Sort,All Negative,8000,3798.18
+Selection Sort,All Positive,8000,3510.7
+Selection Sort,Already Sorted,8000,3684.97
+Selection Sort,Reverse Sorted,8000,3479.54
+Selection Sort,Mixed,9000,4433.89
+Selection Sort,All Negative,9000,4542.95
+Selection Sort,All Positive,9000,4450.73
+Selection Sort,Already Sorted,9000,4463.49
+Selection Sort,Reverse Sorted,9000,4338.6
+Selection Sort,Mixed,10000,5465.34
+Selection Sort,All Negative,10000,5480.81
+Selection Sort,All Positive,10000,5496.5
+Selection Sort,Already Sorted,10000,5420.83
+Selection Sort,Reverse Sorted,10000,5439.94
+Selection Sort,Mixed,15000,12634
+Selection Sort,All Negative,15000,12454
+Selection Sort,All Positive,15000,12254.9
+Selection Sort,Already Sorted,15000,12202.5
+Selection Sort,Reverse Sorted,15000,12425.7
+Selection Sort,Mixed,20000,21710.7
+Selection Sort,All Negative,20000,22696.7
+Selection Sort,All Positive,20000,24545.7
+Selection Sort,Already Sorted,20000,23959.2
+Selection Sort,Reverse Sorted,20000,22674.9
+Shell Sort,Mixed,10,0.0114
+Shell Sort,All Negative,10,0.007
+Shell Sort,All Positive,10,0.0066
+Shell Sort,Already Sorted,10,0.0047
+Shell Sort,Reverse Sorted,10,0.0047
+Shell Sort,Mixed,50,0.0408
+Shell Sort,All Negative,50,0.122
+Shell Sort,All Positive,50,0.0378
+Shell Sort,Already Sorted,50,0.0298
+Shell Sort,Reverse Sorted,50,0.0301
+Shell Sort,Mixed,100,0.1447
+Shell Sort,All Negative,100,0.1182
+Shell Sort,All Positive,100,0.0989
+Shell Sort,Already Sorted,100,0.0513
+Shell Sort,Reverse Sorted,100,0.0526
+Shell Sort,Mixed,300,0.4277
+Shell Sort,All Negative,300,0.448
+Shell Sort,All Positive,300,0.45
+Shell Sort,Already Sorted,300,0.2328
+Shell Sort,Reverse Sorted,300,0.2404
+Shell Sort,Mixed,750,1.8852
+Shell Sort,All Negative,750,1.5531
+Shell Sort,All Positive,750,1.5248
+Shell Sort,Already Sorted,750,0.8096
+Shell Sort,Reverse Sorted,750,0.6938
+Shell Sort,Mixed,1000,2.0646
+Shell Sort,All Negative,1000,1.9498
+Shell Sort,All Positive,1000,2.142
+Shell Sort,Already Sorted,1000,0.8789
+Shell Sort,Reverse Sorted,1000,0.9533
+Shell Sort,Mixed,3000,7.1615
+Shell Sort,All Negative,3000,7.0015
+Shell Sort,All Positive,3000,7.2788
+Shell Sort,Already Sorted,3000,2.8834
+Shell Sort,Reverse Sorted,3000,3.1997
+Shell Sort,Mixed,4500,11.2952
+Shell Sort,All Negative,4500,11.7337
+Shell Sort,All Positive,4500,11.0542
+Shell Sort,Already Sorted,4500,4.9815
+Shell Sort,Reverse Sorted,4500,5.0514
+Shell Sort,Mixed,6000,16.1362
+Shell Sort,All Negative,6000,15.1316
+Shell Sort,All Positive,6000,15.4437
+Shell Sort,Already Sorted,6000,6.7201
+Shell Sort,Reverse Sorted,6000,6.9409
+Shell Sort,Mixed,7000,19.9913
+Shell Sort,All Negative,7000,20.1131
+Shell Sort,All Positive,7000,19.9141
+Shell Sort,Already Sorted,7000,8.2166
+Shell Sort,Reverse Sorted,7000,8.0937
+Shell Sort,Mixed,8000,23.6135
+Shell Sort,All Negative,8000,21.9997
+Shell Sort,All Positive,8000,22.9275
+Shell Sort,Already Sorted,8000,9.0218
+Shell Sort,Reverse Sorted,8000,8.8895
+Shell Sort,Mixed,9000,26.0186
+Shell Sort,All Negative,9000,23.5966
+Shell Sort,All Positive,9000,23.1603
+Shell Sort,Already Sorted,9000,10.9862
+Shell Sort,Reverse Sorted,9000,11.1883
+Shell Sort,Mixed,10000,33.2954
+Shell Sort,All Negative,10000,28.6119
+Shell Sort,All Positive,10000,29.5925
+Shell Sort,Already Sorted,10000,11.6073
+Shell Sort,Reverse Sorted,10000,12.6205
+Shell Sort,Mixed,15000,45.193
+Shell Sort,All Negative,15000,42.5108
+Shell Sort,All Positive,15000,47.5245
+Shell Sort,Already Sorted,15000,17.7595
+Shell Sort,Reverse Sorted,15000,17.1365
+Shell Sort,Mixed,20000,66.4541
+Shell Sort,All Negative,20000,66.5112
+Shell Sort,All Positive,20000,63.6943
+Shell Sort,Already Sorted,20000,23.9284
+Shell Sort,Reverse Sorted,20000,23.169
+Quicksort,Mixed,10,0.0206
+Quicksort,All Negative,10,0.0054
+Quicksort,All Positive,10,0.0056
+Quicksort,Already Sorted,10,0.0009
+Quicksort,Reverse Sorted,10,0.0055
+Quicksort,Mixed,50,0.0345
+Quicksort,All Negative,50,0.0342
+Quicksort,All Positive,50,0.0317
+Quicksort,Already Sorted,50,0.002
+Quicksort,Reverse Sorted,50,0.0032
+Quicksort,Mixed,100,0.1348
+Quicksort,All Negative,100,0.1328
+Quicksort,All Positive,100,0.1253
+Quicksort,Already Sorted,100,0.0026
+Quicksort,Reverse Sorted,100,0.0036
+Quicksort,Mixed,300,0.4253
+Quicksort,All Negative,300,0.4663
+Quicksort,All Positive,300,0.3651
+Quicksort,Already Sorted,300,0.0053
+Quicksort,Reverse Sorted,300,0.007
+Quicksort,Mixed,750,1.115
+Quicksort,All Negative,750,1.1069
+Quicksort,All Positive,750,1.2736
+Quicksort,Already Sorted,750,0.0098
+Quicksort,Reverse Sorted,750,0.0092
+Quicksort,Mixed,1000,1.5968
+Quicksort,All Negative,1000,2.2106
+Quicksort,All Positive,1000,1.7984
+Quicksort,Already Sorted,1000,0.0142
+Quicksort,Reverse Sorted,1000,0.0144
+Quicksort,Mixed,3000,6.6498
+Quicksort,All Negative,3000,6.5614
+Quicksort,All Positive,3000,6.6216
+Quicksort,Already Sorted,3000,0.0354
+Quicksort,Reverse Sorted,3000,0.037
+Quicksort,Mixed,4500,10.2737
+Quicksort,All Negative,4500,9.6937
+Quicksort,All Positive,4500,9.4102
+Quicksort,Already Sorted,4500,0.0596
+Quicksort,Reverse Sorted,4500,0.0579
+Quicksort,Mixed,6000,12.0022
+Quicksort,All Negative,6000,12.28
+Quicksort,All Positive,6000,11.3706
+Quicksort,Already Sorted,6000,0.055
+Quicksort,Reverse Sorted,6000,0.0552
+Quicksort,Mixed,7000,13.4522
+Quicksort,All Negative,7000,14.9109
+Quicksort,All Positive,7000,14.7379
+Quicksort,Already Sorted,7000,0.0706
+Quicksort,Reverse Sorted,7000,0.0932
+Quicksort,Mixed,8000,16.1464
+Quicksort,All Negative,8000,15.9219
+Quicksort,All Positive,8000,15.528
+Quicksort,Already Sorted,8000,0.0691
+Quicksort,Reverse Sorted,8000,0.0855
+Quicksort,Mixed,9000,16.2337
+Quicksort,All Negative,9000,16.9518
+Quicksort,All Positive,9000,16.3317
+Quicksort,Already Sorted,9000,0.0735
+Quicksort,Reverse Sorted,9000,0.077
+Quicksort,Mixed,10000,17.5442
+Quicksort,All Negative,10000,17.9017
+Quicksort,All Positive,10000,17.1166
+Quicksort,Already Sorted,10000,0.0918
+Quicksort,Reverse Sorted,10000,0.1162
+Quicksort,Mixed,15000,28.4358
+Quicksort,All Negative,15000,27.3992
+Quicksort,All Positive,15000,27.6173
+Quicksort,Already Sorted,15000,0.1178
+Quicksort,Reverse Sorted,15000,0.1176
+Quicksort,Mixed,20000,34.6057
+Quicksort,All Negative,20000,38.558
+Quicksort,All Positive,20000,36.8542
+Quicksort,Already Sorted,20000,0.1438
+Quicksort,Reverse Sorted,20000,0.1563

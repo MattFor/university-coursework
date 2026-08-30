@@ -1,0 +1,12 @@
+[submodule "S3"]
+	path = s3
+	url = git@github.com:MattFor/university-s3.git
+[submodule "S4"]
+	path = s4
+	url = git@github.com:MattFor/university-s4.git
+[submodule "S5"]
+	path = s5
+	url = git@github.com:MattFor/university-s5.git
+[submodule "Tensor"]
+	path = tensor
+	url = git@github.com:MattFor/tensor-club.git

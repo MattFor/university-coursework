@@ -1,0 +1,32 @@
+
+bileZenDen:/mnt/d/School/Informatics/WdILab4$ ls -l
+total 0
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ ls -l > dane
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ cat dane
+total 0
+-rwxrwxrwx 1 mattfor mattfor 0 Oct 22 18:25 dane        
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ ls -l
+total 0
+-rwxrwxrwx 1 mattfor mattfor 57 Oct 22 18:25 dane       
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ ls -i >> dane
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ cat dane
+total 0
+-rwxrwxrwx 1 mattfor mattfor 0 Oct 22 18:25 dane        
+13229323905401127 dane
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ rm dane
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ ls -i >> dane
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ cat dane
+13510798882111783 dane
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ rm dane
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ ls -i >> dane
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ cat dane
+14073748835533095 dane
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ cat dane > dane
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ cat dane
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ ls -l
+total 0
+-rwxrwxrwx 1 mattfor mattfor 0 Oct 22 18:28 dane        
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$ echo "Stało się tak, ponieważ plik jest otwarty do nadpisania *zanim* jest on otwarty do odczytania, c
+o efektywnie pipe-uje nic do strumienia pliki, usuwając wszystkie jego dane."
+Stało się tak, ponieważ plik jest otwarty do nadpisania *zanim* jest on otwarty do odczytania, co efektywnie pipe-uje nic do strumienia pliki, usuwając wszystkie jego dane.
+mattfor@MobileZenDen:/mnt/d/School/Informatics/WdILab4$
